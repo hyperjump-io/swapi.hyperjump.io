@@ -1,0 +1,27 @@
+{
+  "name": "Rugor Nass",
+  "height": "206",
+  "mass": "unknown",
+  "hair_color": "none",
+  "skin_color": "green",
+  "eye_color": "orange",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/8"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/4"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/12"
+    }
+  ],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-19T17:33:38.909000Z",
+  "edited": "2014-12-20T21:17:50.388000Z"
+}

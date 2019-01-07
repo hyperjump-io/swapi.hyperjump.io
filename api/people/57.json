@@ -1,0 +1,27 @@
+{
+  "name": "Yarael Poof",
+  "height": "264",
+  "mass": "unknown",
+  "hair_color": "none",
+  "skin_color": "white",
+  "eye_color": "yellow",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/48"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/4"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/25"
+    }
+  ],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:34:48.725000Z",
+  "edited": "2014-12-20T21:17:50.437000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Jek Tono Porkins",
+  "height": "180",
+  "mass": "110",
+  "hair_color": "brown",
+  "skin_color": "fair",
+  "eye_color": "blue",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/26"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/1"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/1"
+    }
+  ],
+  "vehicles": [],
+  "starships": [
+    {
+      "$ref": "/api/starships/12"
+    }
+  ],
+  "created": "2014-12-12T11:16:56.569000Z",
+  "edited": "2014-12-20T21:17:50.343000Z"
+}

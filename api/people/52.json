@@ -1,0 +1,33 @@
+{
+  "name": "Ki-Adi-Mundi",
+  "height": "198",
+  "mass": "82",
+  "hair_color": "white",
+  "skin_color": "pale",
+  "eye_color": "yellow",
+  "birth_year": "92BBY",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/43"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    },
+    {
+      "$ref": "/api/films/4"
+    },
+    {
+      "$ref": "/api/films/6"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/20"
+    }
+  ],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:15:32.293000Z",
+  "edited": "2014-12-20T21:17:50.422000Z"
+}

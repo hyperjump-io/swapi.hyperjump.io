@@ -1,0 +1,29 @@
+{
+  "name": "Chagrian",
+  "classification": "amphibian",
+  "designation": "sentient",
+  "average_height": "190",
+  "skin_colors": "blue",
+  "hair_colors": "none",
+  "eye_colors": "blue",
+  "average_lifespan": "unknown",
+  "homeworld": {
+    "$ref": "/api/planets/50"
+  },
+  "language": "Chagria",
+  "people": [
+    {
+      "$ref": "/api/people/59"
+    }
+  ],
+  "films": [
+    {
+      "$ref": "/api/films/4"
+    },
+    {
+      "$ref": "/api/films/6"
+    }
+  ],
+  "created": "2014-12-20T10:53:28.795000Z",
+  "edited": "2014-12-20T21:36:42.193000Z"
+}

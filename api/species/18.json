@@ -1,0 +1,26 @@
+{
+  "name": "Xexto",
+  "classification": "unknown",
+  "designation": "sentient",
+  "average_height": "125",
+  "skin_colors": "grey, yellow, purple",
+  "hair_colors": "none",
+  "eye_colors": "black",
+  "average_lifespan": "unknown",
+  "homeworld": {
+    "$ref": "/api/planets/40"
+  },
+  "language": "Xextese",
+  "people": [
+    {
+      "$ref": "/api/people/49"
+    }
+  ],
+  "films": [
+    {
+      "$ref": "/api/films/4"
+    }
+  ],
+  "created": "2014-12-20T10:02:13.915000Z",
+  "edited": "2014-12-20T21:36:42.175000Z"
+}

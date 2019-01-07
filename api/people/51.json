@@ -1,0 +1,33 @@
+{
+  "name": "Mace Windu",
+  "height": "188",
+  "mass": "84",
+  "hair_color": "none",
+  "skin_color": "dark",
+  "eye_color": "brown",
+  "birth_year": "72BBY",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/42"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    },
+    {
+      "$ref": "/api/films/4"
+    },
+    {
+      "$ref": "/api/films/6"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/1"
+    }
+  ],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T10:12:30.846000Z",
+  "edited": "2014-12-20T21:17:50.420000Z"
+}

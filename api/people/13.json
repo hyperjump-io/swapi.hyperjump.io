@@ -1,0 +1,50 @@
+{
+  "name": "Chewbacca",
+  "height": "228",
+  "mass": "112",
+  "hair_color": "brown",
+  "skin_color": "unknown",
+  "eye_color": "blue",
+  "birth_year": "200BBY",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/14"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/2"
+    },
+    {
+      "$ref": "/api/films/6"
+    },
+    {
+      "$ref": "/api/films/3"
+    },
+    {
+      "$ref": "/api/films/1"
+    },
+    {
+      "$ref": "/api/films/7"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/3"
+    }
+  ],
+  "vehicles": [
+    {
+      "$ref": "/api/vehicles/19"
+    }
+  ],
+  "starships": [
+    {
+      "$ref": "/api/starships/10"
+    },
+    {
+      "$ref": "/api/starships/22"
+    }
+  ],
+  "created": "2014-12-10T16:42:45.066000Z",
+  "edited": "2014-12-20T21:17:50.332000Z"
+}

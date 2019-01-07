@@ -1,0 +1,43 @@
+{
+  "name": "Padmé Amidala",
+  "height": "165",
+  "mass": "45",
+  "hair_color": "brown",
+  "skin_color": "light",
+  "eye_color": "brown",
+  "birth_year": "46BBY",
+  "gender": "female",
+  "homeworld": {
+    "$ref": "/api/planets/8"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    },
+    {
+      "$ref": "/api/films/4"
+    },
+    {
+      "$ref": "/api/films/6"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/1"
+    }
+  ],
+  "vehicles": [],
+  "starships": [
+    {
+      "$ref": "/api/starships/49"
+    },
+    {
+      "$ref": "/api/starships/64"
+    },
+    {
+      "$ref": "/api/starships/39"
+    }
+  ],
+  "created": "2014-12-19T17:28:26.926000Z",
+  "edited": "2016-04-20T17:06:31.502555Z"
+}

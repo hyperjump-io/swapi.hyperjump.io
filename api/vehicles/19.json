@@ -1,0 +1,28 @@
+{
+  "name": "AT-ST",
+  "model": "All Terrain Scout Transport",
+  "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+  "cost_in_credits": "unknown",
+  "length": "2",
+  "max_atmosphering_speed": "90",
+  "crew": "2",
+  "passengers": "0",
+  "cargo_capacity": "200",
+  "consumables": "none",
+  "vehicle_class": "walker",
+  "pilots": [
+    {
+      "$ref": "/api/people/13"
+    }
+  ],
+  "films": [
+    {
+      "$ref": "/api/films/2"
+    },
+    {
+      "$ref": "/api/films/3"
+    }
+  ],
+  "created": "2014-12-15T12:46:42.384000Z",
+  "edited": "2014-12-22T18:21:15.761584Z"
+}

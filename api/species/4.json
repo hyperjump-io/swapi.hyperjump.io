@@ -1,0 +1,26 @@
+{
+  "name": "Rodian",
+  "classification": "sentient",
+  "designation": "reptilian",
+  "average_height": "170",
+  "skin_colors": "green, blue",
+  "hair_colors": "n/a",
+  "eye_colors": "black",
+  "average_lifespan": "unknown",
+  "homeworld": {
+    "$ref": "/api/planets/23"
+  },
+  "language": "Galactic Basic",
+  "people": [
+    {
+      "$ref": "/api/people/15"
+    }
+  ],
+  "films": [
+    {
+      "$ref": "/api/films/1"
+    }
+  ],
+  "created": "2014-12-10T17:05:26.471000Z",
+  "edited": "2016-07-19T13:27:03.156498Z"
+}

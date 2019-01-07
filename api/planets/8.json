@@ -1,0 +1,62 @@
+{
+  "name": "Naboo",
+  "rotation_period": "26",
+  "orbital_period": "312",
+  "diameter": "12120",
+  "climate": "temperate",
+  "gravity": "1 standard",
+  "terrain": "grassy hills, swamps, forests, mountains",
+  "surface_water": "12",
+  "population": "4500000000",
+  "residents": [
+    {
+      "$ref": "/api/people/3"
+    },
+    {
+      "$ref": "/api/people/21"
+    },
+    {
+      "$ref": "/api/people/36"
+    },
+    {
+      "$ref": "/api/people/37"
+    },
+    {
+      "$ref": "/api/people/38"
+    },
+    {
+      "$ref": "/api/people/39"
+    },
+    {
+      "$ref": "/api/people/42"
+    },
+    {
+      "$ref": "/api/people/60"
+    },
+    {
+      "$ref": "/api/people/61"
+    },
+    {
+      "$ref": "/api/people/66"
+    },
+    {
+      "$ref": "/api/people/35"
+    }
+  ],
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    },
+    {
+      "$ref": "/api/films/4"
+    },
+    {
+      "$ref": "/api/films/6"
+    },
+    {
+      "$ref": "/api/films/3"
+    }
+  ],
+  "created": "2014-12-10T11:52:31.066000Z",
+  "edited": "2014-12-20T20:58:18.430000Z"
+}

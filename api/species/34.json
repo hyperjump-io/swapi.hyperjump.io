@@ -1,0 +1,29 @@
+{
+  "name": "Muun",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "190",
+  "skin_colors": "grey, white",
+  "hair_colors": "none",
+  "eye_colors": "black",
+  "average_lifespan": "100",
+  "homeworld": {
+    "$ref": "/api/planets/57"
+  },
+  "language": "Muun",
+  "people": [
+    {
+      "$ref": "/api/people/77"
+    }
+  ],
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    },
+    {
+      "$ref": "/api/films/6"
+    }
+  ],
+  "created": "2014-12-20T17:58:19.088000Z",
+  "edited": "2014-12-20T21:36:42.207000Z"
+}

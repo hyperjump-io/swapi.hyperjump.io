@@ -1,0 +1,91 @@
+#!/bin/node
+
+const fs = require("fs").promises;
+const url = require("url");
+const axios = require("axios");
+
+
+const lists = [
+  ["people/", (person) => ({
+    ...person,
+    homeworld: toRef(person.homeworld),
+    films: person.films.map(toRef),
+    species: person.species.map(toRef),
+    vehicles: person.vehicles.map(toRef),
+    starships: person.starships.map(toRef)
+  })],
+  ["planets/", (planet) => ({
+    ...planet,
+    residents: planet.residents.map(toRef),
+    films: planet.films.map(toRef)
+  })],
+  ["films/", (film) => ({
+    ...film,
+    characters: film.characters.map(toRef),
+    planets: film.planets.map(toRef),
+    starships: film.starships.map(toRef),
+    vehicles: film.vehicles.map(toRef),
+    species: film.species.map(toRef)
+  })],
+  ["species/", (species) => ({
+    ...species,
+    homeworld: toRef(species.homeworld),
+    people: species.people.map(toRef),
+    films: species.films.map(toRef)
+  })],
+  ["vehicles/", (vehicle) => ({
+    ...vehicle,
+    pilots: vehicle.pilots.map(toRef),
+    films: vehicle.films.map(toRef)
+  })],
+  ["starships/", (starship) => ({
+    ...starship,
+    pilots: starship.pilots.map(toRef),
+    films: starship.films.map(toRef)
+  })]
+];
+
+const swapi = axios.create({
+  baseURL: "https://swapi.co/api/",
+  headers: { "Accept": "application/json" }
+});
+
+const processList = async (path, build) => {
+  const promises = [];
+  let list = { next: path };
+  while (list.next) {
+    console.log(list.next);
+    const response = await swapi(list.next);
+    list = await response.data;
+    promises.concat(list.results
+      .map(build)
+      .map(clean)
+      .map((item) => {
+        const filename = `${__dirname}${toRef(item.url).$ref}.json`;
+        delete item.url;
+
+        return fs.writeFile(filename, JSON.stringify(item, null, 2));
+      }));
+  }
+
+  return Promise.all(promises);
+};
+
+const toRef = (uri) => uri && { "$ref": url.parse(uri).path.replace(/\/$/, "") };
+
+const clean = (obj) => {
+  const cleanObj = {};
+  Object.entries(obj).forEach(([key, value]) => {
+    if (value !== null) {
+      cleanObj[key] = value;
+    }
+  });
+
+  return cleanObj;
+};
+
+(async function () {
+  await Promise.all(lists.map(([path, build]) => processList(path, build)));
+}())
+  .then(() => console.log("done"))
+  .catch((error) => console.log(error));

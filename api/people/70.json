@@ -1,0 +1,31 @@
+{
+  "name": "Zam Wesell",
+  "height": "168",
+  "mass": "55",
+  "hair_color": "blonde",
+  "skin_color": "fair, green, yellow",
+  "eye_color": "yellow",
+  "birth_year": "unknown",
+  "gender": "female",
+  "homeworld": {
+    "$ref": "/api/planets/54"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/30"
+    }
+  ],
+  "vehicles": [
+    {
+      "$ref": "/api/vehicles/45"
+    }
+  ],
+  "starships": [],
+  "created": "2014-12-20T16:57:44.471000Z",
+  "edited": "2014-12-20T21:17:50.468000Z"
+}

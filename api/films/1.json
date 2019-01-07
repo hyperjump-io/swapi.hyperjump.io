@@ -1,0 +1,134 @@
+{
+  "title": "A New Hope",
+  "episode_id": 4,
+  "opening_crawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
+  "director": "George Lucas",
+  "producer": "Gary Kurtz, Rick McCallum",
+  "release_date": "1977-05-25",
+  "characters": [
+    {
+      "$ref": "/api/people/1"
+    },
+    {
+      "$ref": "/api/people/2"
+    },
+    {
+      "$ref": "/api/people/3"
+    },
+    {
+      "$ref": "/api/people/4"
+    },
+    {
+      "$ref": "/api/people/5"
+    },
+    {
+      "$ref": "/api/people/6"
+    },
+    {
+      "$ref": "/api/people/7"
+    },
+    {
+      "$ref": "/api/people/8"
+    },
+    {
+      "$ref": "/api/people/9"
+    },
+    {
+      "$ref": "/api/people/10"
+    },
+    {
+      "$ref": "/api/people/12"
+    },
+    {
+      "$ref": "/api/people/13"
+    },
+    {
+      "$ref": "/api/people/14"
+    },
+    {
+      "$ref": "/api/people/15"
+    },
+    {
+      "$ref": "/api/people/16"
+    },
+    {
+      "$ref": "/api/people/18"
+    },
+    {
+      "$ref": "/api/people/19"
+    },
+    {
+      "$ref": "/api/people/81"
+    }
+  ],
+  "planets": [
+    {
+      "$ref": "/api/planets/2"
+    },
+    {
+      "$ref": "/api/planets/3"
+    },
+    {
+      "$ref": "/api/planets/1"
+    }
+  ],
+  "starships": [
+    {
+      "$ref": "/api/starships/2"
+    },
+    {
+      "$ref": "/api/starships/3"
+    },
+    {
+      "$ref": "/api/starships/5"
+    },
+    {
+      "$ref": "/api/starships/9"
+    },
+    {
+      "$ref": "/api/starships/10"
+    },
+    {
+      "$ref": "/api/starships/11"
+    },
+    {
+      "$ref": "/api/starships/12"
+    },
+    {
+      "$ref": "/api/starships/13"
+    }
+  ],
+  "vehicles": [
+    {
+      "$ref": "/api/vehicles/4"
+    },
+    {
+      "$ref": "/api/vehicles/6"
+    },
+    {
+      "$ref": "/api/vehicles/7"
+    },
+    {
+      "$ref": "/api/vehicles/8"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/5"
+    },
+    {
+      "$ref": "/api/species/3"
+    },
+    {
+      "$ref": "/api/species/2"
+    },
+    {
+      "$ref": "/api/species/1"
+    },
+    {
+      "$ref": "/api/species/4"
+    }
+  ],
+  "created": "2014-12-10T14:23:31.880000Z",
+  "edited": "2015-04-11T09:46:52.774897Z"
+}

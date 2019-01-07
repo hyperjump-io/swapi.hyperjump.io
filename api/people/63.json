@@ -1,0 +1,30 @@
+{
+  "name": "Poggle the Lesser",
+  "height": "183",
+  "mass": "80",
+  "hair_color": "none",
+  "skin_color": "green",
+  "eye_color": "yellow",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/11"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    },
+    {
+      "$ref": "/api/films/6"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/28"
+    }
+  ],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-20T16:40:43.977000Z",
+  "edited": "2014-12-20T21:17:50.453000Z"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Skakoan",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "unknown",
+  "skin_colors": "grey, green",
+  "hair_colors": "none",
+  "eye_colors": "unknown",
+  "average_lifespan": "unknown",
+  "homeworld": {
+    "$ref": "/api/planets/56"
+  },
+  "language": "Skakoan",
+  "people": [
+    {
+      "$ref": "/api/people/76"
+    }
+  ],
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    },
+    {
+      "$ref": "/api/films/6"
+    }
+  ],
+  "created": "2014-12-20T17:53:54.515000Z",
+  "edited": "2014-12-20T21:36:42.204000Z"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Shmi Skywalker",
+  "height": "163",
+  "mass": "unknown",
+  "hair_color": "black",
+  "skin_color": "fair",
+  "eye_color": "brown",
+  "birth_year": "72BBY",
+  "gender": "female",
+  "homeworld": {
+    "$ref": "/api/planets/1"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/5"
+    },
+    {
+      "$ref": "/api/films/4"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/1"
+    }
+  ],
+  "vehicles": [],
+  "starships": [],
+  "created": "2014-12-19T17:57:41.191000Z",
+  "edited": "2014-12-20T21:17:50.401000Z"
+}

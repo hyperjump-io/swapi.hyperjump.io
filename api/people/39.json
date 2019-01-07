@@ -1,0 +1,27 @@
+{
+  "name": "Ric Olié",
+  "height": "183",
+  "mass": "unknown",
+  "hair_color": "brown",
+  "skin_color": "fair",
+  "eye_color": "blue",
+  "birth_year": "unknown",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/8"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/4"
+    }
+  ],
+  "species": [],
+  "vehicles": [],
+  "starships": [
+    {
+      "$ref": "/api/starships/40"
+    }
+  ],
+  "created": "2014-12-19T17:45:01.522000Z",
+  "edited": "2014-12-20T21:17:50.392000Z"
+}

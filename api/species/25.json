@@ -1,0 +1,29 @@
+{
+  "name": "Quermian",
+  "classification": "mammal",
+  "designation": "sentient",
+  "average_height": "240",
+  "skin_colors": "white",
+  "hair_colors": "none",
+  "eye_colors": "yellow",
+  "average_lifespan": "86",
+  "homeworld": {
+    "$ref": "/api/planets/48"
+  },
+  "language": "Quermian",
+  "people": [
+    {
+      "$ref": "/api/people/57"
+    }
+  ],
+  "films": [
+    {
+      "$ref": "/api/films/4"
+    },
+    {
+      "$ref": "/api/films/6"
+    }
+  ],
+  "created": "2014-12-20T10:34:50.827000Z",
+  "edited": "2014-12-20T21:36:42.189000Z"
+}

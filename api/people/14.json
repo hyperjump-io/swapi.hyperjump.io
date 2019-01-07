@@ -1,0 +1,43 @@
+{
+  "name": "Han Solo",
+  "height": "180",
+  "mass": "80",
+  "hair_color": "brown",
+  "skin_color": "fair",
+  "eye_color": "brown",
+  "birth_year": "29BBY",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/22"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/2"
+    },
+    {
+      "$ref": "/api/films/3"
+    },
+    {
+      "$ref": "/api/films/1"
+    },
+    {
+      "$ref": "/api/films/7"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/1"
+    }
+  ],
+  "vehicles": [],
+  "starships": [
+    {
+      "$ref": "/api/starships/10"
+    },
+    {
+      "$ref": "/api/starships/22"
+    }
+  ],
+  "created": "2014-12-10T16:49:14.582000Z",
+  "edited": "2014-12-20T21:17:50.334000Z"
+}

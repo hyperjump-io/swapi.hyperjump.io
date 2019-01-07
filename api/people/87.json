@@ -1,0 +1,27 @@
+{
+  "name": "BB8",
+  "height": "unknown",
+  "mass": "unknown",
+  "hair_color": "none",
+  "skin_color": "none",
+  "eye_color": "black",
+  "birth_year": "unknown",
+  "gender": "none",
+  "homeworld": {
+    "$ref": "/api/planets/28"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/7"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/2"
+    }
+  ],
+  "vehicles": [],
+  "starships": [],
+  "created": "2015-04-17T06:57:38.061346Z",
+  "edited": "2015-04-17T06:57:38.061453Z"
+}

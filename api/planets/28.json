@@ -1,0 +1,46 @@
+{
+  "name": "unknown",
+  "rotation_period": "0",
+  "orbital_period": "0",
+  "diameter": "0",
+  "climate": "unknown",
+  "gravity": "unknown",
+  "terrain": "unknown",
+  "surface_water": "unknown",
+  "population": "unknown",
+  "residents": [
+    {
+      "$ref": "/api/people/20"
+    },
+    {
+      "$ref": "/api/people/23"
+    },
+    {
+      "$ref": "/api/people/29"
+    },
+    {
+      "$ref": "/api/people/32"
+    },
+    {
+      "$ref": "/api/people/75"
+    },
+    {
+      "$ref": "/api/people/84"
+    },
+    {
+      "$ref": "/api/people/85"
+    },
+    {
+      "$ref": "/api/people/86"
+    },
+    {
+      "$ref": "/api/people/87"
+    },
+    {
+      "$ref": "/api/people/88"
+    }
+  ],
+  "films": [],
+  "created": "2014-12-15T12:25:59.569000Z",
+  "edited": "2014-12-20T20:58:18.466000Z"
+}

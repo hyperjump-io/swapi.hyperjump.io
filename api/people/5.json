@@ -1,0 +1,43 @@
+{
+  "name": "Leia Organa",
+  "height": "150",
+  "mass": "49",
+  "hair_color": "brown",
+  "skin_color": "light",
+  "eye_color": "brown",
+  "birth_year": "19BBY",
+  "gender": "female",
+  "homeworld": {
+    "$ref": "/api/planets/2"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/2"
+    },
+    {
+      "$ref": "/api/films/6"
+    },
+    {
+      "$ref": "/api/films/3"
+    },
+    {
+      "$ref": "/api/films/1"
+    },
+    {
+      "$ref": "/api/films/7"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/1"
+    }
+  ],
+  "vehicles": [
+    {
+      "$ref": "/api/vehicles/30"
+    }
+  ],
+  "starships": [],
+  "created": "2014-12-10T15:20:09.791000Z",
+  "edited": "2014-12-20T21:17:50.315000Z"
+}

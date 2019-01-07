@@ -1,0 +1,41 @@
+{
+  "name": "Wedge Antilles",
+  "height": "170",
+  "mass": "77",
+  "hair_color": "brown",
+  "skin_color": "fair",
+  "eye_color": "hazel",
+  "birth_year": "21BBY",
+  "gender": "male",
+  "homeworld": {
+    "$ref": "/api/planets/22"
+  },
+  "films": [
+    {
+      "$ref": "/api/films/2"
+    },
+    {
+      "$ref": "/api/films/3"
+    },
+    {
+      "$ref": "/api/films/1"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/1"
+    }
+  ],
+  "vehicles": [
+    {
+      "$ref": "/api/vehicles/14"
+    }
+  ],
+  "starships": [
+    {
+      "$ref": "/api/starships/12"
+    }
+  ],
+  "created": "2014-12-12T11:08:06.469000Z",
+  "edited": "2014-12-20T21:17:50.341000Z"
+}

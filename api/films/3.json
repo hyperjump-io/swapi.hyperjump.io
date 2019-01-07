@@ -1,0 +1,182 @@
+{
+  "title": "Return of the Jedi",
+  "episode_id": 6,
+  "opening_crawl": "Luke Skywalker has returned to\r\nhis home planet of Tatooine in\r\nan attempt to rescue his\r\nfriend Han Solo from the\r\nclutches of the vile gangster\r\nJabba the Hutt.\r\n\r\nLittle does Luke know that the\r\nGALACTIC EMPIRE has secretly\r\nbegun construction on a new\r\narmored space station even\r\nmore powerful than the first\r\ndreaded Death Star.\r\n\r\nWhen completed, this ultimate\r\nweapon will spell certain doom\r\nfor the small band of rebels\r\nstruggling to restore freedom\r\nto the galaxy...",
+  "director": "Richard Marquand",
+  "producer": "Howard G. Kazanjian, George Lucas, Rick McCallum",
+  "release_date": "1983-05-25",
+  "characters": [
+    {
+      "$ref": "/api/people/1"
+    },
+    {
+      "$ref": "/api/people/2"
+    },
+    {
+      "$ref": "/api/people/3"
+    },
+    {
+      "$ref": "/api/people/4"
+    },
+    {
+      "$ref": "/api/people/5"
+    },
+    {
+      "$ref": "/api/people/10"
+    },
+    {
+      "$ref": "/api/people/13"
+    },
+    {
+      "$ref": "/api/people/14"
+    },
+    {
+      "$ref": "/api/people/16"
+    },
+    {
+      "$ref": "/api/people/18"
+    },
+    {
+      "$ref": "/api/people/20"
+    },
+    {
+      "$ref": "/api/people/21"
+    },
+    {
+      "$ref": "/api/people/22"
+    },
+    {
+      "$ref": "/api/people/25"
+    },
+    {
+      "$ref": "/api/people/27"
+    },
+    {
+      "$ref": "/api/people/28"
+    },
+    {
+      "$ref": "/api/people/29"
+    },
+    {
+      "$ref": "/api/people/30"
+    },
+    {
+      "$ref": "/api/people/31"
+    },
+    {
+      "$ref": "/api/people/45"
+    }
+  ],
+  "planets": [
+    {
+      "$ref": "/api/planets/5"
+    },
+    {
+      "$ref": "/api/planets/7"
+    },
+    {
+      "$ref": "/api/planets/8"
+    },
+    {
+      "$ref": "/api/planets/9"
+    },
+    {
+      "$ref": "/api/planets/1"
+    }
+  ],
+  "starships": [
+    {
+      "$ref": "/api/starships/15"
+    },
+    {
+      "$ref": "/api/starships/10"
+    },
+    {
+      "$ref": "/api/starships/11"
+    },
+    {
+      "$ref": "/api/starships/12"
+    },
+    {
+      "$ref": "/api/starships/22"
+    },
+    {
+      "$ref": "/api/starships/23"
+    },
+    {
+      "$ref": "/api/starships/27"
+    },
+    {
+      "$ref": "/api/starships/28"
+    },
+    {
+      "$ref": "/api/starships/29"
+    },
+    {
+      "$ref": "/api/starships/3"
+    },
+    {
+      "$ref": "/api/starships/17"
+    },
+    {
+      "$ref": "/api/starships/2"
+    }
+  ],
+  "vehicles": [
+    {
+      "$ref": "/api/vehicles/8"
+    },
+    {
+      "$ref": "/api/vehicles/16"
+    },
+    {
+      "$ref": "/api/vehicles/18"
+    },
+    {
+      "$ref": "/api/vehicles/19"
+    },
+    {
+      "$ref": "/api/vehicles/24"
+    },
+    {
+      "$ref": "/api/vehicles/25"
+    },
+    {
+      "$ref": "/api/vehicles/26"
+    },
+    {
+      "$ref": "/api/vehicles/30"
+    }
+  ],
+  "species": [
+    {
+      "$ref": "/api/species/1"
+    },
+    {
+      "$ref": "/api/species/2"
+    },
+    {
+      "$ref": "/api/species/3"
+    },
+    {
+      "$ref": "/api/species/5"
+    },
+    {
+      "$ref": "/api/species/6"
+    },
+    {
+      "$ref": "/api/species/8"
+    },
+    {
+      "$ref": "/api/species/9"
+    },
+    {
+      "$ref": "/api/species/10"
+    },
+    {
+      "$ref": "/api/species/15"
+    }
+  ],
+  "created": "2014-12-18T10:39:33.255000Z",
+  "edited": "2015-04-11T09:46:05.220365Z"
+}
