@@ -41,8 +41,9 @@ const cache = async (req, res, next) => {
 app.use("/api/*", conneg(["application/reference+json", "application/json"]));
 app.useAsync("/api/*", cache);
 
+const year = 31536000000;
 app.get("/api/*", (req, res) => {
-  res.sendFile(`${__dirname}/${req.path}.json`);
+  res.sendFile(`${__dirname}/${req.path}.json`, { maxAge: year });
 });
 
 const port = process.env.PORT || 4000;
