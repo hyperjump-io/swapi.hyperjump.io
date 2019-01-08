@@ -8,7 +8,7 @@ const morgan = require("morgan");
 const app = decorateApp(express());
 
 const corsOptions = {
-  origin: ["*"],
+  origin: true,
   maxAge: 3600,
   methods: ["HEAD", "GET"]
 };
