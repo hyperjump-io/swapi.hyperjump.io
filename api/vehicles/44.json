@@ -12,12 +12,12 @@
   "vehicle_class": "repulsorcraft",
   "pilots": [
     {
-      "$ref": "/api/people/11"
+      "$href": "/api/people/11"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     }
   ],
   "created": "2014-12-20T16:24:16.026000Z",

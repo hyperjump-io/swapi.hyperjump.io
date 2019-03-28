@@ -10,7 +10,7 @@
   "population": "18500000000",
   "residents": [
     {
-      "$ref": "/api/people/31"
+      "$href": "/api/people/31"
     }
   ],
   "films": [],

@@ -8,17 +8,17 @@
   "eye_colors": "red, pink",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$ref": "/api/planets/18"
+    "$href": "/api/planets/18"
   },
   "language": "Neimoidia",
   "people": [
     {
-      "$ref": "/api/people/33"
+      "$href": "/api/people/33"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/4"
+      "$href": "/api/films/4"
     }
   ],
   "created": "2014-12-19T17:07:31.319000Z",

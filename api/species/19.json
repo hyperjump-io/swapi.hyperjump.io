@@ -8,20 +8,20 @@
   "eye_colors": "orange",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$ref": "/api/planets/41"
+    "$href": "/api/planets/41"
   },
   "language": "Tundan",
   "people": [
     {
-      "$ref": "/api/people/50"
+      "$href": "/api/people/50"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/4"
+      "$href": "/api/films/4"
     },
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T10:08:36.795000Z",

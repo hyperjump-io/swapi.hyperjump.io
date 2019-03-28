@@ -10,21 +10,21 @@
   "population": "2000000000",
   "residents": [
     {
-      "$ref": "/api/people/5"
+      "$href": "/api/people/5"
     },
     {
-      "$ref": "/api/people/68"
+      "$href": "/api/people/68"
     },
     {
-      "$ref": "/api/people/81"
+      "$href": "/api/people/81"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     },
     {
-      "$ref": "/api/films/1"
+      "$href": "/api/films/1"
     }
   ],
   "created": "2014-12-10T11:35:48.479000Z",

@@ -8,26 +8,26 @@
   "eye_colors": "orange",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$ref": "/api/planets/8"
+    "$href": "/api/planets/8"
   },
   "language": "Gungan basic",
   "people": [
     {
-      "$ref": "/api/people/36"
+      "$href": "/api/people/36"
     },
     {
-      "$ref": "/api/people/37"
+      "$href": "/api/people/37"
     },
     {
-      "$ref": "/api/people/38"
+      "$href": "/api/people/38"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     },
     {
-      "$ref": "/api/films/4"
+      "$href": "/api/films/4"
     }
   ],
   "created": "2014-12-19T17:30:37.341000Z",

@@ -11,13 +11,13 @@
   "residents": [],
   "films": [
     {
-      "$ref": "/api/films/2"
+      "$href": "/api/films/2"
     },
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     },
     {
-      "$ref": "/api/films/3"
+      "$href": "/api/films/3"
     }
   ],
   "created": "2014-12-10T11:42:22.590000Z",

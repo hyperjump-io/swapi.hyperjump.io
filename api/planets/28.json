@@ -10,34 +10,34 @@
   "population": "unknown",
   "residents": [
     {
-      "$ref": "/api/people/20"
+      "$href": "/api/people/20"
     },
     {
-      "$ref": "/api/people/23"
+      "$href": "/api/people/23"
     },
     {
-      "$ref": "/api/people/29"
+      "$href": "/api/people/29"
     },
     {
-      "$ref": "/api/people/32"
+      "$href": "/api/people/32"
     },
     {
-      "$ref": "/api/people/75"
+      "$href": "/api/people/75"
     },
     {
-      "$ref": "/api/people/84"
+      "$href": "/api/people/84"
     },
     {
-      "$ref": "/api/people/85"
+      "$href": "/api/people/85"
     },
     {
-      "$ref": "/api/people/86"
+      "$href": "/api/people/86"
     },
     {
-      "$ref": "/api/people/87"
+      "$href": "/api/people/87"
     },
     {
-      "$ref": "/api/people/88"
+      "$href": "/api/people/88"
     }
   ],
   "films": [],

@@ -12,15 +12,15 @@
   "vehicle_class": "walker",
   "pilots": [
     {
-      "$ref": "/api/people/13"
+      "$href": "/api/people/13"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/2"
+      "$href": "/api/films/2"
     },
     {
-      "$ref": "/api/films/3"
+      "$href": "/api/films/3"
     }
   ],
   "created": "2014-12-15T12:46:42.384000Z",

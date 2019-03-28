@@ -7,219 +7,219 @@
   "release_date": "1999-05-19",
   "characters": [
     {
-      "$ref": "/api/people/2"
+      "$href": "/api/people/2"
     },
     {
-      "$ref": "/api/people/3"
+      "$href": "/api/people/3"
     },
     {
-      "$ref": "/api/people/10"
+      "$href": "/api/people/10"
     },
     {
-      "$ref": "/api/people/11"
+      "$href": "/api/people/11"
     },
     {
-      "$ref": "/api/people/16"
+      "$href": "/api/people/16"
     },
     {
-      "$ref": "/api/people/20"
+      "$href": "/api/people/20"
     },
     {
-      "$ref": "/api/people/21"
+      "$href": "/api/people/21"
     },
     {
-      "$ref": "/api/people/32"
+      "$href": "/api/people/32"
     },
     {
-      "$ref": "/api/people/33"
+      "$href": "/api/people/33"
     },
     {
-      "$ref": "/api/people/34"
+      "$href": "/api/people/34"
     },
     {
-      "$ref": "/api/people/36"
+      "$href": "/api/people/36"
     },
     {
-      "$ref": "/api/people/37"
+      "$href": "/api/people/37"
     },
     {
-      "$ref": "/api/people/38"
+      "$href": "/api/people/38"
     },
     {
-      "$ref": "/api/people/39"
+      "$href": "/api/people/39"
     },
     {
-      "$ref": "/api/people/40"
+      "$href": "/api/people/40"
     },
     {
-      "$ref": "/api/people/41"
+      "$href": "/api/people/41"
     },
     {
-      "$ref": "/api/people/42"
+      "$href": "/api/people/42"
     },
     {
-      "$ref": "/api/people/43"
+      "$href": "/api/people/43"
     },
     {
-      "$ref": "/api/people/44"
+      "$href": "/api/people/44"
     },
     {
-      "$ref": "/api/people/46"
+      "$href": "/api/people/46"
     },
     {
-      "$ref": "/api/people/48"
+      "$href": "/api/people/48"
     },
     {
-      "$ref": "/api/people/49"
+      "$href": "/api/people/49"
     },
     {
-      "$ref": "/api/people/50"
+      "$href": "/api/people/50"
     },
     {
-      "$ref": "/api/people/51"
+      "$href": "/api/people/51"
     },
     {
-      "$ref": "/api/people/52"
+      "$href": "/api/people/52"
     },
     {
-      "$ref": "/api/people/53"
+      "$href": "/api/people/53"
     },
     {
-      "$ref": "/api/people/54"
+      "$href": "/api/people/54"
     },
     {
-      "$ref": "/api/people/55"
+      "$href": "/api/people/55"
     },
     {
-      "$ref": "/api/people/56"
+      "$href": "/api/people/56"
     },
     {
-      "$ref": "/api/people/57"
+      "$href": "/api/people/57"
     },
     {
-      "$ref": "/api/people/58"
+      "$href": "/api/people/58"
     },
     {
-      "$ref": "/api/people/59"
+      "$href": "/api/people/59"
     },
     {
-      "$ref": "/api/people/47"
+      "$href": "/api/people/47"
     },
     {
-      "$ref": "/api/people/35"
+      "$href": "/api/people/35"
     }
   ],
   "planets": [
     {
-      "$ref": "/api/planets/8"
+      "$href": "/api/planets/8"
     },
     {
-      "$ref": "/api/planets/9"
+      "$href": "/api/planets/9"
     },
     {
-      "$ref": "/api/planets/1"
+      "$href": "/api/planets/1"
     }
   ],
   "starships": [
     {
-      "$ref": "/api/starships/40"
+      "$href": "/api/starships/40"
     },
     {
-      "$ref": "/api/starships/41"
+      "$href": "/api/starships/41"
     },
     {
-      "$ref": "/api/starships/31"
+      "$href": "/api/starships/31"
     },
     {
-      "$ref": "/api/starships/32"
+      "$href": "/api/starships/32"
     },
     {
-      "$ref": "/api/starships/39"
+      "$href": "/api/starships/39"
     }
   ],
   "vehicles": [
     {
-      "$ref": "/api/vehicles/33"
+      "$href": "/api/vehicles/33"
     },
     {
-      "$ref": "/api/vehicles/34"
+      "$href": "/api/vehicles/34"
     },
     {
-      "$ref": "/api/vehicles/35"
+      "$href": "/api/vehicles/35"
     },
     {
-      "$ref": "/api/vehicles/36"
+      "$href": "/api/vehicles/36"
     },
     {
-      "$ref": "/api/vehicles/37"
+      "$href": "/api/vehicles/37"
     },
     {
-      "$ref": "/api/vehicles/38"
+      "$href": "/api/vehicles/38"
     },
     {
-      "$ref": "/api/vehicles/42"
+      "$href": "/api/vehicles/42"
     }
   ],
   "species": [
     {
-      "$ref": "/api/species/1"
+      "$href": "/api/species/1"
     },
     {
-      "$ref": "/api/species/2"
+      "$href": "/api/species/2"
     },
     {
-      "$ref": "/api/species/6"
+      "$href": "/api/species/6"
     },
     {
-      "$ref": "/api/species/11"
+      "$href": "/api/species/11"
     },
     {
-      "$ref": "/api/species/12"
+      "$href": "/api/species/12"
     },
     {
-      "$ref": "/api/species/13"
+      "$href": "/api/species/13"
     },
     {
-      "$ref": "/api/species/14"
+      "$href": "/api/species/14"
     },
     {
-      "$ref": "/api/species/15"
+      "$href": "/api/species/15"
     },
     {
-      "$ref": "/api/species/16"
+      "$href": "/api/species/16"
     },
     {
-      "$ref": "/api/species/17"
+      "$href": "/api/species/17"
     },
     {
-      "$ref": "/api/species/18"
+      "$href": "/api/species/18"
     },
     {
-      "$ref": "/api/species/19"
+      "$href": "/api/species/19"
     },
     {
-      "$ref": "/api/species/20"
+      "$href": "/api/species/20"
     },
     {
-      "$ref": "/api/species/21"
+      "$href": "/api/species/21"
     },
     {
-      "$ref": "/api/species/22"
+      "$href": "/api/species/22"
     },
     {
-      "$ref": "/api/species/23"
+      "$href": "/api/species/23"
     },
     {
-      "$ref": "/api/species/24"
+      "$href": "/api/species/24"
     },
     {
-      "$ref": "/api/species/25"
+      "$href": "/api/species/25"
     },
     {
-      "$ref": "/api/species/26"
+      "$href": "/api/species/26"
     },
     {
-      "$ref": "/api/species/27"
+      "$href": "/api/species/27"
     }
   ],
   "created": "2014-12-19T16:52:55.740000Z",

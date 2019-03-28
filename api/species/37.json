@@ -8,17 +8,17 @@
   "eye_colors": "black",
   "average_lifespan": "700",
   "homeworld": {
-    "$ref": "/api/planets/12"
+    "$href": "/api/planets/12"
   },
   "language": "Utapese",
   "people": [
     {
-      "$ref": "/api/people/83"
+      "$href": "/api/people/83"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T20:35:06.777000Z",

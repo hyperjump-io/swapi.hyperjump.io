@@ -8,17 +8,17 @@
   "eye_colors": "yellow",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$ref": "/api/planets/31"
+    "$href": "/api/planets/31"
   },
   "language": "Mon Calamarian",
   "people": [
     {
-      "$ref": "/api/people/27"
+      "$href": "/api/people/27"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/3"
+      "$href": "/api/films/3"
     }
   ],
   "created": "2014-12-18T11:09:52.263000Z",

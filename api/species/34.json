@@ -8,20 +8,20 @@
   "eye_colors": "black",
   "average_lifespan": "100",
   "homeworld": {
-    "$ref": "/api/planets/57"
+    "$href": "/api/planets/57"
   },
   "language": "Muun",
   "people": [
     {
-      "$ref": "/api/people/77"
+      "$href": "/api/people/77"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     },
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T17:58:19.088000Z",

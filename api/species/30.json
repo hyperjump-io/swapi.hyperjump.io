@@ -8,20 +8,20 @@
   "eye_colors": "yellow",
   "average_lifespan": "70",
   "homeworld": {
-    "$ref": "/api/planets/54"
+    "$href": "/api/planets/54"
   },
   "language": "Clawdite",
   "people": [
     {
-      "$ref": "/api/people/70"
+      "$href": "/api/people/70"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     },
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T16:57:46.171000Z",

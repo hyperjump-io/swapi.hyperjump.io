@@ -8,20 +8,20 @@
   "eye_colors": "orange",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$ref": "/api/planets/47"
+    "$href": "/api/planets/47"
   },
   "language": "Iktotchese",
   "people": [
     {
-      "$ref": "/api/people/56"
+      "$href": "/api/people/56"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/4"
+      "$href": "/api/films/4"
     },
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T10:32:13.046000Z",

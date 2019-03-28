@@ -8,16 +8,16 @@
   "birth_year": "40BBY",
   "gender": "female",
   "homeworld": {
-    "$ref": "/api/planets/51"
+    "$href": "/api/planets/51"
   },
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     }
   ],
   "species": [
     {
-      "$ref": "/api/species/29"
+      "$href": "/api/species/29"
     }
   ],
   "vehicles": [],

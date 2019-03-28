@@ -8,17 +8,17 @@
   "eye_colors": "black",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$ref": "/api/planets/23"
+    "$href": "/api/planets/23"
   },
   "language": "Galactic Basic",
   "people": [
     {
-      "$ref": "/api/people/15"
+      "$href": "/api/people/15"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/1"
+      "$href": "/api/films/1"
     }
   ],
   "created": "2014-12-10T17:05:26.471000Z",

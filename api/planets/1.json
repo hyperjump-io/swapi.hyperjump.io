@@ -10,51 +10,51 @@
   "population": "200000",
   "residents": [
     {
-      "$ref": "/api/people/1"
+      "$href": "/api/people/1"
     },
     {
-      "$ref": "/api/people/2"
+      "$href": "/api/people/2"
     },
     {
-      "$ref": "/api/people/4"
+      "$href": "/api/people/4"
     },
     {
-      "$ref": "/api/people/6"
+      "$href": "/api/people/6"
     },
     {
-      "$ref": "/api/people/7"
+      "$href": "/api/people/7"
     },
     {
-      "$ref": "/api/people/8"
+      "$href": "/api/people/8"
     },
     {
-      "$ref": "/api/people/9"
+      "$href": "/api/people/9"
     },
     {
-      "$ref": "/api/people/11"
+      "$href": "/api/people/11"
     },
     {
-      "$ref": "/api/people/43"
+      "$href": "/api/people/43"
     },
     {
-      "$ref": "/api/people/62"
+      "$href": "/api/people/62"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     },
     {
-      "$ref": "/api/films/4"
+      "$href": "/api/films/4"
     },
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     },
     {
-      "$ref": "/api/films/3"
+      "$href": "/api/films/3"
     },
     {
-      "$ref": "/api/films/1"
+      "$href": "/api/films/1"
     }
   ],
   "created": "2014-12-09T13:50:49.641000Z",

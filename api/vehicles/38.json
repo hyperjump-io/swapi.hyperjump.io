@@ -12,15 +12,15 @@
   "vehicle_class": "submarine",
   "pilots": [
     {
-      "$ref": "/api/people/10"
+      "$href": "/api/people/10"
     },
     {
-      "$ref": "/api/people/32"
+      "$href": "/api/people/32"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/4"
+      "$href": "/api/films/4"
     }
   ],
   "created": "2014-12-19T17:37:37.924000Z",

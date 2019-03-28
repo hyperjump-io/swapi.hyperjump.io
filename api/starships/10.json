@@ -14,30 +14,30 @@
   "starship_class": "Light freighter",
   "pilots": [
     {
-      "$ref": "/api/people/13"
+      "$href": "/api/people/13"
     },
     {
-      "$ref": "/api/people/14"
+      "$href": "/api/people/14"
     },
     {
-      "$ref": "/api/people/25"
+      "$href": "/api/people/25"
     },
     {
-      "$ref": "/api/people/31"
+      "$href": "/api/people/31"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/2"
+      "$href": "/api/films/2"
     },
     {
-      "$ref": "/api/films/7"
+      "$href": "/api/films/7"
     },
     {
-      "$ref": "/api/films/3"
+      "$href": "/api/films/3"
     },
     {
-      "$ref": "/api/films/1"
+      "$href": "/api/films/1"
     }
   ],
   "created": "2014-12-10T16:59:45.094000Z",

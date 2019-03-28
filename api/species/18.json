@@ -8,17 +8,17 @@
   "eye_colors": "black",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$ref": "/api/planets/40"
+    "$href": "/api/planets/40"
   },
   "language": "Xextese",
   "people": [
     {
-      "$ref": "/api/people/49"
+      "$href": "/api/people/49"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/4"
+      "$href": "/api/films/4"
     }
   ],
   "created": "2014-12-20T10:02:13.915000Z",

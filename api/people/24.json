@@ -8,16 +8,16 @@
   "birth_year": "53BBY",
   "gender": "male",
   "homeworld": {
-    "$ref": "/api/planets/29"
+    "$href": "/api/planets/29"
   },
   "films": [
     {
-      "$ref": "/api/films/2"
+      "$href": "/api/films/2"
     }
   ],
   "species": [
     {
-      "$ref": "/api/species/7"
+      "$href": "/api/species/7"
     }
   ],
   "vehicles": [],

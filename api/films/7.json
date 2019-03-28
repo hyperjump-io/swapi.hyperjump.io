@@ -7,62 +7,62 @@
   "release_date": "2015-12-11",
   "characters": [
     {
-      "$ref": "/api/people/1"
+      "$href": "/api/people/1"
     },
     {
-      "$ref": "/api/people/3"
+      "$href": "/api/people/3"
     },
     {
-      "$ref": "/api/people/5"
+      "$href": "/api/people/5"
     },
     {
-      "$ref": "/api/people/13"
+      "$href": "/api/people/13"
     },
     {
-      "$ref": "/api/people/14"
+      "$href": "/api/people/14"
     },
     {
-      "$ref": "/api/people/27"
+      "$href": "/api/people/27"
     },
     {
-      "$ref": "/api/people/84"
+      "$href": "/api/people/84"
     },
     {
-      "$ref": "/api/people/85"
+      "$href": "/api/people/85"
     },
     {
-      "$ref": "/api/people/86"
+      "$href": "/api/people/86"
     },
     {
-      "$ref": "/api/people/87"
+      "$href": "/api/people/87"
     },
     {
-      "$ref": "/api/people/88"
+      "$href": "/api/people/88"
     }
   ],
   "planets": [
     {
-      "$ref": "/api/planets/61"
+      "$href": "/api/planets/61"
     }
   ],
   "starships": [
     {
-      "$ref": "/api/starships/77"
+      "$href": "/api/starships/77"
     },
     {
-      "$ref": "/api/starships/10"
+      "$href": "/api/starships/10"
     }
   ],
   "vehicles": [],
   "species": [
     {
-      "$ref": "/api/species/3"
+      "$href": "/api/species/3"
     },
     {
-      "$ref": "/api/species/2"
+      "$href": "/api/species/2"
     },
     {
-      "$ref": "/api/species/1"
+      "$href": "/api/species/1"
     }
   ],
   "created": "2015-04-17T06:51:30.504780Z",

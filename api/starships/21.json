@@ -14,15 +14,15 @@
   "starship_class": "Patrol craft",
   "pilots": [
     {
-      "$ref": "/api/people/22"
+      "$href": "/api/people/22"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/2"
+      "$href": "/api/films/2"
     },
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     }
   ],
   "created": "2014-12-15T13:00:56.332000Z",

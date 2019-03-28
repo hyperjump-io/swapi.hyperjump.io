@@ -8,20 +8,20 @@
   "eye_colors": "red, orange, yellow, green, blue, black",
   "average_lifespan": "94",
   "homeworld": {
-    "$ref": "/api/planets/58"
+    "$href": "/api/planets/58"
   },
   "language": "Togruti",
   "people": [
     {
-      "$ref": "/api/people/78"
+      "$href": "/api/people/78"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     },
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T18:44:03.246000Z",

@@ -12,15 +12,15 @@
   "vehicle_class": "speeder",
   "pilots": [
     {
-      "$ref": "/api/people/1"
+      "$href": "/api/people/1"
     },
     {
-      "$ref": "/api/people/5"
+      "$href": "/api/people/5"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/3"
+      "$href": "/api/films/3"
     }
   ],
   "created": "2014-12-18T11:20:04.625000Z",

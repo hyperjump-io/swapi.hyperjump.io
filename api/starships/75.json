@@ -15,7 +15,7 @@
   "pilots": [],
   "films": [
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T20:43:04.349000Z",

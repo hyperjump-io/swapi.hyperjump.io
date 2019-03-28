@@ -8,20 +8,20 @@
   "eye_colors": "green, hazel",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$ref": "/api/planets/11"
+    "$href": "/api/planets/11"
   },
   "language": "Geonosian",
   "people": [
     {
-      "$ref": "/api/people/63"
+      "$href": "/api/people/63"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     },
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T16:40:45.618000Z",

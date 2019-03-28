@@ -8,26 +8,26 @@
   "birth_year": "unknown",
   "gender": "male",
   "homeworld": {
-    "$ref": "/api/planets/59"
+    "$href": "/api/planets/59"
   },
   "films": [
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "species": [
     {
-      "$ref": "/api/species/36"
+      "$href": "/api/species/36"
     }
   ],
   "vehicles": [
     {
-      "$ref": "/api/vehicles/60"
+      "$href": "/api/vehicles/60"
     }
   ],
   "starships": [
     {
-      "$ref": "/api/starships/74"
+      "$href": "/api/starships/74"
     }
   ],
   "created": "2014-12-20T19:43:53.348000Z",

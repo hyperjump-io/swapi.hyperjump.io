@@ -8,20 +8,20 @@
   "eye_colors": "black",
   "average_lifespan": "80",
   "homeworld": {
-    "$ref": "/api/planets/10"
+    "$href": "/api/planets/10"
   },
   "language": "Kaminoan",
   "people": [
     {
-      "$ref": "/api/people/72"
+      "$href": "/api/people/72"
     },
     {
-      "$ref": "/api/people/73"
+      "$href": "/api/people/73"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     }
   ],
   "created": "2014-12-20T17:31:24.838000Z",

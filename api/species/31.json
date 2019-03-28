@@ -8,17 +8,17 @@
   "eye_colors": "yellow",
   "average_lifespan": "75",
   "homeworld": {
-    "$ref": "/api/planets/55"
+    "$href": "/api/planets/55"
   },
   "language": "besalisk",
   "people": [
     {
-      "$ref": "/api/people/71"
+      "$href": "/api/people/71"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/5"
+      "$href": "/api/films/5"
     }
   ],
   "created": "2014-12-20T17:28:28.821000Z",

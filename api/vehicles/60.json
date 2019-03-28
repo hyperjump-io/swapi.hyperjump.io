@@ -12,12 +12,12 @@
   "vehicle_class": "wheeled walker",
   "pilots": [
     {
-      "$ref": "/api/people/79"
+      "$href": "/api/people/79"
     }
   ],
   "films": [
     {
-      "$ref": "/api/films/6"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-20T19:43:54.870000Z",
