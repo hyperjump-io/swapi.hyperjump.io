@@ -8,40 +8,40 @@ const axios = require("axios");
 const lists = [
   ["people/", (person) => ({
     ...person,
-    homeworld: toRef(person.homeworld),
-    films: person.films.map(toRef),
-    species: person.species.map(toRef),
-    vehicles: person.vehicles.map(toRef),
-    starships: person.starships.map(toRef)
+    homeworld: toHref(person.homeworld),
+    films: person.films.map(toHref),
+    species: person.species.map(toHref),
+    vehicles: person.vehicles.map(toHref),
+    starships: person.starships.map(toHref)
   })],
   ["planets/", (planet) => ({
     ...planet,
-    residents: planet.residents.map(toRef),
-    films: planet.films.map(toRef)
+    residents: planet.residents.map(toHref),
+    films: planet.films.map(toHref)
   })],
   ["films/", (film) => ({
     ...film,
-    characters: film.characters.map(toRef),
-    planets: film.planets.map(toRef),
-    starships: film.starships.map(toRef),
-    vehicles: film.vehicles.map(toRef),
-    species: film.species.map(toRef)
+    characters: film.characters.map(toHref),
+    planets: film.planets.map(toHref),
+    starships: film.starships.map(toHref),
+    vehicles: film.vehicles.map(toHref),
+    species: film.species.map(toHref)
   })],
   ["species/", (species) => ({
     ...species,
-    homeworld: toRef(species.homeworld),
-    people: species.people.map(toRef),
-    films: species.films.map(toRef)
+    homeworld: toHref(species.homeworld),
+    people: species.people.map(toHref),
+    films: species.films.map(toHref)
   })],
   ["vehicles/", (vehicle) => ({
     ...vehicle,
-    pilots: vehicle.pilots.map(toRef),
-    films: vehicle.films.map(toRef)
+    pilots: vehicle.pilots.map(toHref),
+    films: vehicle.films.map(toHref)
   })],
   ["starships/", (starship) => ({
     ...starship,
-    pilots: starship.pilots.map(toRef),
-    films: starship.films.map(toRef)
+    pilots: starship.pilots.map(toHref),
+    films: starship.films.map(toHref)
   })]
 ];
 
@@ -61,7 +61,7 @@ const processList = async (path, build) => {
       .map(build)
       .map(clean)
       .map((item) => {
-        const filename = `${__dirname}${toRef(item.url).$href}.json`;
+        const filename = `${__dirname}${toHref(item.url).$href}.json`;
         delete item.url;
 
         return fs.writeFile(filename, JSON.stringify(item, null, 2));
@@ -71,7 +71,7 @@ const processList = async (path, build) => {
   return Promise.all(promises);
 };
 
-const toRef = (uri) => uri && { "$href": url.parse(uri).path.replace(/\/$/, "") };
+const toHref = (uri) => uri && { "$href": url.parse(uri).path.replace(/\/$/, "") };
 
 const clean = (obj) => {
   const cleanObj = {};
