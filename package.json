@@ -1,10 +1,23 @@
 {
   "name": "@hyperjump/starwars",
   "version": "0.1.0",
-  "description": "",
+  "description": "An demo API for the JRef media type and the Hyperjump browser",
   "scripts": {
-    "start": "nodemon server.js"
+    "clean": "cat .gitignore | xargs rm -rf",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
+  "repository": "github:jdesrosiers/swapi.hyperjump.io",
+  "keywords": [
+    "Hyperjump",
+    "JSON Reference",
+    "JRef",
+    "REST",
+    "Hypermedia",
+    "Star Wars",
+    "API",
+    "swapi"
+  ],
   "author": "Jason Desrosiers <jdesrosi@gmail.com>",
   "license": "MIT",
   "dependencies": {

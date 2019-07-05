@@ -28,7 +28,7 @@ const conneg = (types) => (req, res, next) => {
 };
 
 const cache = async (req, res, next) => {
-  const resource = JSON.parse(await fs.readFile(`${__dirname}/templates${req.originalUrl}.json`, "utf8"));
+  const resource = JSON.parse(await fs.readFile(`${__dirname}/data${req.originalUrl}.json`, "utf8"));
   const lastModified = new Date(resource.edited);
 
   if (req.headers["if-modified-since"] && new Date(req.headers["if-modified-since"]) > lastModified) {
@@ -44,7 +44,7 @@ app.useAsync("/api/*", cache);
 
 const year = 31536000000;
 app.get("/api/*", (req, res) => {
-  res.sendFile(`${__dirname}/templates${req.originalUrl}.json`, { maxAge: year, immutable: true });
+  res.sendFile(`${__dirname}/data${req.originalUrl}.json`, { maxAge: year, immutable: true });
 });
 
 const port = process.env.PORT || 3000;
