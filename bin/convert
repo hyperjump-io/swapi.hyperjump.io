@@ -61,7 +61,7 @@ const processList = async (path, build) => {
       .map(build)
       .map(clean)
       .map((item) => {
-        const filename = `${__dirname}${toHref(item.url).$href}.json`;
+        const filename = `${__dirname}/../templates${toHref(item.url).$href}.json`;
         delete item.url;
 
         return fs.writeFile(filename, JSON.stringify(item, null, 2));
@@ -85,7 +85,10 @@ const clean = (obj) => {
 };
 
 (async function () {
-  await Promise.all(lists.map(([path, build]) => processList(path, build)));
-}())
-  .then(() => console.log("done"))
-  .catch((error) => console.log(error));
+  try {
+    await Promise.all(lists.map(([path, build]) => processList(path, build)));
+    console.log("done");
+  } catch (error) {
+    console.log(error);
+  }
+}());

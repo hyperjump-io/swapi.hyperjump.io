@@ -3,6 +3,7 @@ const express = require("express");
 const { decorateApp } = require("@awaitjs/express");
 const cors = require("cors");
 const morgan = require("morgan");
+const compression = require("compression");
 
 
 const app = decorateApp(express());
@@ -13,8 +14,8 @@ const corsOptions = {
   methods: ["HEAD", "GET"]
 };
 app.use(cors(corsOptions));
-
 app.use(morgan("combined"));
+app.use(compression());
 
 const conneg = (types) => (req, res, next) => {
   const contentType = req.accepts(types);
@@ -27,7 +28,7 @@ const conneg = (types) => (req, res, next) => {
 };
 
 const cache = async (req, res, next) => {
-  const resource = JSON.parse(await fs.readFile(`${__dirname}/${req.baseUrl}.json`, "utf8"));
+  const resource = JSON.parse(await fs.readFile(`${__dirname}/templates${req.originalUrl}.json`, "utf8"));
   const lastModified = new Date(resource.edited);
 
   if (req.headers["if-modified-since"] && new Date(req.headers["if-modified-since"]) > lastModified) {
@@ -43,8 +44,8 @@ app.useAsync("/api/*", cache);
 
 const year = 31536000000;
 app.get("/api/*", (req, res) => {
-  res.sendFile(`${__dirname}/${req.path}.json`, { maxAge: year });
+  res.sendFile(`${__dirname}/templates${req.originalUrl}.json`, { maxAge: year, immutable: true });
 });
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`starwars.hyperjump.io listening on port ${port}`));
