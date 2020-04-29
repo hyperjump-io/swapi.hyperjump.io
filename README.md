@@ -17,6 +17,6 @@ folder.
 The app is deployed to Heroku. The site is served through Cloudflare.
 TODO: Automate deployment
 
-[jref]: https://github.com/jdesrosiers/hyperjump-browser/tree/master/json-reference
-[hyperjump]: https://github.com/jdesrosiers/hyperjump-browser
+[jref]: https://github.com/hyperjump-io/browser/blob/master/lib/json-reference/README.md
+[hyperjump]: https://github.com/hyperjump-io/browser
 [swapi]: https://www.swapi.co
