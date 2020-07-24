@@ -10,7 +10,7 @@
   "homeworld": {
     "$href": "/api/planets/23"
   },
-  "language": "Galactic Basic",
+  "language": "Galatic Basic",
   "people": [
     {
       "$href": "/api/people/15"
@@ -22,5 +22,5 @@
     }
   ],
   "created": "2014-12-10T17:05:26.471000Z",
-  "edited": "2016-07-19T13:27:03.156498Z"
+  "edited": "2014-12-20T21:36:42.144000Z"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Wookiee",
+  "name": "Wookie",
   "classification": "mammal",
   "designation": "sentient",
   "average_height": "210",
@@ -21,21 +21,18 @@
   ],
   "films": [
     {
+      "$href": "/api/films/1"
+    },
+    {
       "$href": "/api/films/2"
-    },
-    {
-      "$href": "/api/films/7"
-    },
-    {
-      "$href": "/api/films/6"
     },
     {
       "$href": "/api/films/3"
     },
     {
-      "$href": "/api/films/1"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-10T16:44:31.486000Z",
-  "edited": "2015-01-30T21:23:03.074598Z"
+  "edited": "2014-12-20T21:36:42.142000Z"
 }

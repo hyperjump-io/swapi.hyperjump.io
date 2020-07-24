@@ -1,0 +1,38 @@
+{
+  "count": 60,
+  "next": {
+    "$href": "/api/planets?page=2"
+  },
+  "results": [
+    {
+      "$href": "/api/planets/1"
+    },
+    {
+      "$href": "/api/planets/2"
+    },
+    {
+      "$href": "/api/planets/3"
+    },
+    {
+      "$href": "/api/planets/4"
+    },
+    {
+      "$href": "/api/planets/5"
+    },
+    {
+      "$href": "/api/planets/6"
+    },
+    {
+      "$href": "/api/planets/7"
+    },
+    {
+      "$href": "/api/planets/8"
+    },
+    {
+      "$href": "/api/planets/9"
+    },
+    {
+      "$href": "/api/planets/10"
+    }
+  ]
+}

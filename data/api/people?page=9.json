@@ -1,0 +1,14 @@
+{
+  "count": 82,
+  "previous": {
+    "$href": "/api/people?page=8"
+  },
+  "results": [
+    {
+      "$href": "/api/people/82"
+    },
+    {
+      "$href": "/api/people/83"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "people": {
+    "$href": "/api/people"
+  },
+  "planets": {
+    "$href": "/api/planets"
+  },
+  "films": {
+    "$href": "/api/films"
+  },
+  "species": {
+    "$href": "/api/species"
+  },
+  "vehicles": {
+    "$href": "/api/vehicles"
+  },
+  "starships": {
+    "$href": "/api/starships"
+  }
+}

@@ -12,20 +12,16 @@
   },
   "films": [
     {
+      "$href": "/api/films/1"
+    },
+    {
       "$href": "/api/films/5"
     },
     {
       "$href": "/api/films/6"
-    },
-    {
-      "$href": "/api/films/1"
     }
   ],
-  "species": [
-    {
-      "$href": "/api/species/1"
-    }
-  ],
+  "species": [],
   "vehicles": [],
   "starships": [],
   "created": "2014-12-10T15:52:14.024000Z",

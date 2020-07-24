@@ -3,7 +3,7 @@
   "model": "X-34 landspeeder",
   "manufacturer": "SoroSuub Corporation",
   "cost_in_credits": "10550",
-  "length": "3.4",
+  "length": "3.4 ",
   "max_atmosphering_speed": "250",
   "crew": "1",
   "passengers": "1",
@@ -17,5 +17,5 @@
     }
   ],
   "created": "2014-12-10T16:13:52.586000Z",
-  "edited": "2014-12-22T18:21:15.583700Z"
+  "edited": "2014-12-20T21:30:21.668000Z"
 }

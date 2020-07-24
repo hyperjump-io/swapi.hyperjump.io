@@ -37,6 +37,9 @@
       "$href": "/api/people/33"
     },
     {
+      "$href": "/api/people/35"
+    },
+    {
       "$href": "/api/people/36"
     },
     {
@@ -122,12 +125,12 @@
     },
     {
       "$href": "/api/people/82"
-    },
-    {
-      "$href": "/api/people/35"
     }
   ],
   "planets": [
+    {
+      "$href": "/api/planets/1"
+    },
     {
       "$href": "/api/planets/8"
     },
@@ -139,14 +142,14 @@
     },
     {
       "$href": "/api/planets/11"
-    },
-    {
-      "$href": "/api/planets/1"
     }
   ],
   "starships": [
     {
       "$href": "/api/starships/21"
+    },
+    {
+      "$href": "/api/starships/32"
     },
     {
       "$href": "/api/starships/39"
@@ -162,9 +165,6 @@
     },
     {
       "$href": "/api/starships/49"
-    },
-    {
-      "$href": "/api/starships/32"
     },
     {
       "$href": "/api/starships/52"
@@ -210,28 +210,16 @@
   ],
   "species": [
     {
-      "$href": "/api/species/32"
-    },
-    {
-      "$href": "/api/species/33"
+      "$href": "/api/species/1"
     },
     {
       "$href": "/api/species/2"
     },
     {
-      "$href": "/api/species/35"
-    },
-    {
       "$href": "/api/species/6"
     },
     {
-      "$href": "/api/species/1"
-    },
-    {
       "$href": "/api/species/12"
-    },
-    {
-      "$href": "/api/species/34"
     },
     {
       "$href": "/api/species/13"
@@ -250,8 +238,20 @@
     },
     {
       "$href": "/api/species/31"
+    },
+    {
+      "$href": "/api/species/32"
+    },
+    {
+      "$href": "/api/species/33"
+    },
+    {
+      "$href": "/api/species/34"
+    },
+    {
+      "$href": "/api/species/35"
     }
   ],
   "created": "2014-12-20T10:57:57.886000Z",
-  "edited": "2015-04-11T09:45:01.623982Z"
+  "edited": "2014-12-20T20:18:48.516000Z"
 }

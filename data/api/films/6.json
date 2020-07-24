@@ -49,6 +49,9 @@
       "$href": "/api/people/33"
     },
     {
+      "$href": "/api/people/35"
+    },
+    {
       "$href": "/api/people/46"
     },
     {
@@ -104,12 +107,12 @@
     },
     {
       "$href": "/api/people/83"
-    },
-    {
-      "$href": "/api/people/35"
     }
   ],
   "planets": [
+    {
+      "$href": "/api/planets/1"
+    },
     {
       "$href": "/api/planets/2"
     },
@@ -145,12 +148,15 @@
     },
     {
       "$href": "/api/planets/19"
-    },
-    {
-      "$href": "/api/planets/1"
     }
   ],
   "starships": [
+    {
+      "$href": "/api/starships/2"
+    },
+    {
+      "$href": "/api/starships/32"
+    },
     {
       "$href": "/api/starships/48"
     },
@@ -159,9 +165,6 @@
     },
     {
       "$href": "/api/starships/61"
-    },
-    {
-      "$href": "/api/starships/32"
     },
     {
       "$href": "/api/starships/63"
@@ -176,16 +179,13 @@
       "$href": "/api/starships/66"
     },
     {
+      "$href": "/api/starships/68"
+    },
+    {
       "$href": "/api/starships/74"
     },
     {
       "$href": "/api/starships/75"
-    },
-    {
-      "$href": "/api/starships/2"
-    },
-    {
-      "$href": "/api/starships/68"
     }
   ],
   "vehicles": [
@@ -231,10 +231,7 @@
   ],
   "species": [
     {
-      "$href": "/api/species/19"
-    },
-    {
-      "$href": "/api/species/33"
+      "$href": "/api/species/1"
     },
     {
       "$href": "/api/species/2"
@@ -243,25 +240,13 @@
       "$href": "/api/species/3"
     },
     {
-      "$href": "/api/species/36"
-    },
-    {
-      "$href": "/api/species/37"
-    },
-    {
       "$href": "/api/species/6"
-    },
-    {
-      "$href": "/api/species/1"
-    },
-    {
-      "$href": "/api/species/34"
     },
     {
       "$href": "/api/species/15"
     },
     {
-      "$href": "/api/species/35"
+      "$href": "/api/species/19"
     },
     {
       "$href": "/api/species/20"
@@ -289,8 +274,23 @@
     },
     {
       "$href": "/api/species/30"
+    },
+    {
+      "$href": "/api/species/33"
+    },
+    {
+      "$href": "/api/species/34"
+    },
+    {
+      "$href": "/api/species/35"
+    },
+    {
+      "$href": "/api/species/36"
+    },
+    {
+      "$href": "/api/species/37"
     }
   ],
   "created": "2014-12-20T18:49:38.403000Z",
-  "edited": "2015-04-11T09:45:44.862122Z"
+  "edited": "2014-12-20T20:47:52.073000Z"
 }

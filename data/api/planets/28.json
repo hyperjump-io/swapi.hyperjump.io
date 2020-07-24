@@ -23,21 +23,6 @@
     },
     {
       "$href": "/api/people/75"
-    },
-    {
-      "$href": "/api/people/84"
-    },
-    {
-      "$href": "/api/people/85"
-    },
-    {
-      "$href": "/api/people/86"
-    },
-    {
-      "$href": "/api/people/87"
-    },
-    {
-      "$href": "/api/people/88"
     }
   ],
   "films": [],

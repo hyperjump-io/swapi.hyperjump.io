@@ -12,29 +12,25 @@
   },
   "films": [
     {
+      "$href": "/api/films/1"
+    },
+    {
       "$href": "/api/films/2"
-    },
-    {
-      "$href": "/api/films/5"
-    },
-    {
-      "$href": "/api/films/4"
-    },
-    {
-      "$href": "/api/films/6"
     },
     {
       "$href": "/api/films/3"
     },
     {
-      "$href": "/api/films/1"
-    }
-  ],
-  "species": [
+      "$href": "/api/films/4"
+    },
     {
-      "$href": "/api/species/1"
+      "$href": "/api/films/5"
+    },
+    {
+      "$href": "/api/films/6"
     }
   ],
+  "species": [],
   "vehicles": [
     {
       "$href": "/api/vehicles/38"

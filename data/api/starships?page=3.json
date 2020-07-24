@@ -1,0 +1,41 @@
+{
+  "count": 36,
+  "next": {
+    "$href": "/api/starships?page=4"
+  },
+  "previous": {
+    "$href": "/api/starships?page=2"
+  },
+  "results": [
+    {
+      "$href": "/api/starships/41"
+    },
+    {
+      "$href": "/api/starships/43"
+    },
+    {
+      "$href": "/api/starships/47"
+    },
+    {
+      "$href": "/api/starships/48"
+    },
+    {
+      "$href": "/api/starships/49"
+    },
+    {
+      "$href": "/api/starships/52"
+    },
+    {
+      "$href": "/api/starships/58"
+    },
+    {
+      "$href": "/api/starships/59"
+    },
+    {
+      "$href": "/api/starships/61"
+    },
+    {
+      "$href": "/api/starships/63"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "count": 36,
+  "previous": {
+    "$href": "/api/starships?page=3"
+  },
+  "results": [
+    {
+      "$href": "/api/starships/64"
+    },
+    {
+      "$href": "/api/starships/65"
+    },
+    {
+      "$href": "/api/starships/66"
+    },
+    {
+      "$href": "/api/starships/68"
+    },
+    {
+      "$href": "/api/starships/74"
+    },
+    {
+      "$href": "/api/starships/75"
+    }
+  ]
+}

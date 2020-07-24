@@ -5,7 +5,7 @@
   "cost_in_credits": "3500000",
   "length": "150",
   "max_atmosphering_speed": "950",
-  "crew": "165",
+  "crew": "30-165",
   "passengers": "600",
   "cargo_capacity": "3000000",
   "consumables": "1 year",
@@ -15,15 +15,15 @@
   "pilots": [],
   "films": [
     {
-      "$href": "/api/films/6"
+      "$href": "/api/films/1"
     },
     {
       "$href": "/api/films/3"
     },
     {
-      "$href": "/api/films/1"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-10T14:20:33.369000Z",
-  "edited": "2014-12-22T17:35:45.408368Z"
+  "edited": "2014-12-20T21:23:49.867000Z"
 }

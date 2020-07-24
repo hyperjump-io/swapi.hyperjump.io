@@ -63,13 +63,13 @@
   ],
   "planets": [
     {
+      "$href": "/api/planets/1"
+    },
+    {
       "$href": "/api/planets/2"
     },
     {
       "$href": "/api/planets/3"
-    },
-    {
-      "$href": "/api/planets/1"
     }
   ],
   "starships": [
@@ -114,21 +114,21 @@
   ],
   "species": [
     {
-      "$href": "/api/species/5"
-    },
-    {
-      "$href": "/api/species/3"
+      "$href": "/api/species/1"
     },
     {
       "$href": "/api/species/2"
     },
     {
-      "$href": "/api/species/1"
+      "$href": "/api/species/3"
     },
     {
       "$href": "/api/species/4"
+    },
+    {
+      "$href": "/api/species/5"
     }
   ],
   "created": "2014-12-10T14:23:31.880000Z",
-  "edited": "2015-04-11T09:46:52.774897Z"
+  "edited": "2014-12-20T19:49:45.256000Z"
 }

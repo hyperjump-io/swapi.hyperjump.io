@@ -13,81 +13,6 @@
   "language": "Galactic Basic",
   "people": [
     {
-      "$href": "/api/people/1"
-    },
-    {
-      "$href": "/api/people/4"
-    },
-    {
-      "$href": "/api/people/5"
-    },
-    {
-      "$href": "/api/people/6"
-    },
-    {
-      "$href": "/api/people/7"
-    },
-    {
-      "$href": "/api/people/9"
-    },
-    {
-      "$href": "/api/people/10"
-    },
-    {
-      "$href": "/api/people/11"
-    },
-    {
-      "$href": "/api/people/12"
-    },
-    {
-      "$href": "/api/people/14"
-    },
-    {
-      "$href": "/api/people/18"
-    },
-    {
-      "$href": "/api/people/19"
-    },
-    {
-      "$href": "/api/people/21"
-    },
-    {
-      "$href": "/api/people/22"
-    },
-    {
-      "$href": "/api/people/25"
-    },
-    {
-      "$href": "/api/people/26"
-    },
-    {
-      "$href": "/api/people/28"
-    },
-    {
-      "$href": "/api/people/29"
-    },
-    {
-      "$href": "/api/people/32"
-    },
-    {
-      "$href": "/api/people/34"
-    },
-    {
-      "$href": "/api/people/43"
-    },
-    {
-      "$href": "/api/people/51"
-    },
-    {
-      "$href": "/api/people/60"
-    },
-    {
-      "$href": "/api/people/61"
-    },
-    {
-      "$href": "/api/people/62"
-    },
-    {
       "$href": "/api/people/66"
     },
     {
@@ -97,50 +22,29 @@
       "$href": "/api/people/68"
     },
     {
-      "$href": "/api/people/69"
-    },
-    {
       "$href": "/api/people/74"
-    },
-    {
-      "$href": "/api/people/81"
-    },
-    {
-      "$href": "/api/people/84"
-    },
-    {
-      "$href": "/api/people/85"
-    },
-    {
-      "$href": "/api/people/86"
-    },
-    {
-      "$href": "/api/people/35"
     }
   ],
   "films": [
     {
+      "$href": "/api/films/1"
+    },
+    {
       "$href": "/api/films/2"
-    },
-    {
-      "$href": "/api/films/7"
-    },
-    {
-      "$href": "/api/films/5"
-    },
-    {
-      "$href": "/api/films/4"
-    },
-    {
-      "$href": "/api/films/6"
     },
     {
       "$href": "/api/films/3"
     },
     {
-      "$href": "/api/films/1"
+      "$href": "/api/films/4"
+    },
+    {
+      "$href": "/api/films/5"
+    },
+    {
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-10T13:52:11.567000Z",
-  "edited": "2015-04-17T06:59:55.850671Z"
+  "edited": "2014-12-20T21:36:42.136000Z"
 }

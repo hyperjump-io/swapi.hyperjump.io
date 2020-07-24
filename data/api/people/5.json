@@ -12,26 +12,19 @@
   },
   "films": [
     {
-      "$href": "/api/films/2"
+      "$href": "/api/films/1"
     },
     {
-      "$href": "/api/films/6"
+      "$href": "/api/films/2"
     },
     {
       "$href": "/api/films/3"
     },
     {
-      "$href": "/api/films/1"
-    },
-    {
-      "$href": "/api/films/7"
+      "$href": "/api/films/6"
     }
   ],
-  "species": [
-    {
-      "$href": "/api/species/1"
-    }
-  ],
+  "species": [],
   "vehicles": [
     {
       "$href": "/api/vehicles/30"

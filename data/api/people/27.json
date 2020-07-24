@@ -13,9 +13,6 @@
   "films": [
     {
       "$href": "/api/films/3"
-    },
-    {
-      "$href": "/api/films/7"
     }
   ],
   "species": [

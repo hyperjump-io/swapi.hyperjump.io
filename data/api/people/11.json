@@ -12,20 +12,16 @@
   },
   "films": [
     {
-      "$href": "/api/films/5"
+      "$href": "/api/films/4"
     },
     {
-      "$href": "/api/films/4"
+      "$href": "/api/films/5"
     },
     {
       "$href": "/api/films/6"
     }
   ],
-  "species": [
-    {
-      "$href": "/api/species/1"
-    }
-  ],
+  "species": [],
   "vehicles": [
     {
       "$href": "/api/vehicles/44"
@@ -36,13 +32,13 @@
   ],
   "starships": [
     {
+      "$href": "/api/starships/39"
+    },
+    {
       "$href": "/api/starships/59"
     },
     {
       "$href": "/api/starships/65"
-    },
-    {
-      "$href": "/api/starships/39"
     }
   ],
   "created": "2014-12-10T16:20:44.310000Z",

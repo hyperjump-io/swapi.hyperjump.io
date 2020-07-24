@@ -1,6 +1,6 @@
 {
   "name": "Padmé Amidala",
-  "height": "165",
+  "height": "185",
   "mass": "45",
   "hair_color": "brown",
   "skin_color": "light",
@@ -12,32 +12,28 @@
   },
   "films": [
     {
-      "$href": "/api/films/5"
+      "$href": "/api/films/4"
     },
     {
-      "$href": "/api/films/4"
+      "$href": "/api/films/5"
     },
     {
       "$href": "/api/films/6"
     }
   ],
-  "species": [
-    {
-      "$href": "/api/species/1"
-    }
-  ],
+  "species": [],
   "vehicles": [],
   "starships": [
+    {
+      "$href": "/api/starships/39"
+    },
     {
       "$href": "/api/starships/49"
     },
     {
       "$href": "/api/starships/64"
-    },
-    {
-      "$href": "/api/starships/39"
     }
   ],
   "created": "2014-12-19T17:28:26.926000Z",
-  "edited": "2016-04-20T17:06:31.502555Z"
+  "edited": "2014-12-20T21:17:50.381000Z"
 }

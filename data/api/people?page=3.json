@@ -1,0 +1,41 @@
+{
+  "count": 82,
+  "next": {
+    "$href": "/api/people?page=4"
+  },
+  "previous": {
+    "$href": "/api/people?page=2"
+  },
+  "results": [
+    {
+      "$href": "/api/people/22"
+    },
+    {
+      "$href": "/api/people/23"
+    },
+    {
+      "$href": "/api/people/24"
+    },
+    {
+      "$href": "/api/people/25"
+    },
+    {
+      "$href": "/api/people/26"
+    },
+    {
+      "$href": "/api/people/27"
+    },
+    {
+      "$href": "/api/people/28"
+    },
+    {
+      "$href": "/api/people/29"
+    },
+    {
+      "$href": "/api/people/30"
+    },
+    {
+      "$href": "/api/people/31"
+    }
+  ]
+}

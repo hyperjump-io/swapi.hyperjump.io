@@ -15,17 +15,13 @@
       "$href": "/api/films/2"
     },
     {
-      "$href": "/api/films/5"
+      "$href": "/api/films/3"
     },
     {
-      "$href": "/api/films/3"
+      "$href": "/api/films/5"
     }
   ],
-  "species": [
-    {
-      "$href": "/api/species/1"
-    }
-  ],
+  "species": [],
   "vehicles": [],
   "starships": [
     {

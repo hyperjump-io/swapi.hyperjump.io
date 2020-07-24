@@ -24,10 +24,10 @@
   ],
   "films": [
     {
-      "$href": "/api/films/5"
+      "$href": "/api/films/4"
     },
     {
-      "$href": "/api/films/4"
+      "$href": "/api/films/5"
     }
   ],
   "created": "2014-12-19T17:30:37.341000Z",

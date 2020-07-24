@@ -15,11 +15,7 @@
       "$href": "/api/films/2"
     }
   ],
-  "species": [
-    {
-      "$href": "/api/species/1"
-    }
-  ],
+  "species": [],
   "vehicles": [],
   "starships": [],
   "created": "2014-12-15T13:01:57.178000Z",

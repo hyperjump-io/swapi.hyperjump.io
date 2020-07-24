@@ -17,20 +17,20 @@
       "$href": "/api/people/11"
     },
     {
-      "$href": "/api/people/60"
+      "$href": "/api/people/35"
     },
     {
-      "$href": "/api/people/35"
+      "$href": "/api/people/60"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/5"
+      "$href": "/api/films/4"
     },
     {
-      "$href": "/api/films/4"
+      "$href": "/api/films/5"
     }
   ],
   "created": "2014-12-19T17:39:17.582000Z",
-  "edited": "2014-12-22T17:35:45.079452Z"
+  "edited": "2014-12-20T21:23:49.917000Z"
 }

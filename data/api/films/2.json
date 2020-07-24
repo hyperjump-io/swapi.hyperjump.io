@@ -71,7 +71,7 @@
   ],
   "starships": [
     {
-      "$href": "/api/starships/15"
+      "$href": "/api/starships/3"
     },
     {
       "$href": "/api/starships/10"
@@ -83,6 +83,12 @@
       "$href": "/api/starships/12"
     },
     {
+      "$href": "/api/starships/15"
+    },
+    {
+      "$href": "/api/starships/17"
+    },
+    {
       "$href": "/api/starships/21"
     },
     {
@@ -90,12 +96,6 @@
     },
     {
       "$href": "/api/starships/23"
-    },
-    {
-      "$href": "/api/starships/3"
-    },
-    {
-      "$href": "/api/starships/17"
     }
   ],
   "vehicles": [
@@ -120,21 +120,21 @@
   ],
   "species": [
     {
-      "$href": "/api/species/6"
-    },
-    {
-      "$href": "/api/species/7"
-    },
-    {
-      "$href": "/api/species/3"
+      "$href": "/api/species/1"
     },
     {
       "$href": "/api/species/2"
     },
     {
-      "$href": "/api/species/1"
+      "$href": "/api/species/3"
+    },
+    {
+      "$href": "/api/species/6"
+    },
+    {
+      "$href": "/api/species/7"
     }
   ],
   "created": "2014-12-12T11:26:24.656000Z",
-  "edited": "2017-04-19T10:57:29.544256Z"
+  "edited": "2014-12-15T13:07:53.386000Z"
 }

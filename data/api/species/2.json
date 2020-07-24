@@ -20,34 +20,28 @@
     },
     {
       "$href": "/api/people/23"
-    },
-    {
-      "$href": "/api/people/87"
     }
   ],
   "films": [
     {
+      "$href": "/api/films/1"
+    },
+    {
       "$href": "/api/films/2"
-    },
-    {
-      "$href": "/api/films/7"
-    },
-    {
-      "$href": "/api/films/5"
-    },
-    {
-      "$href": "/api/films/4"
-    },
-    {
-      "$href": "/api/films/6"
     },
     {
       "$href": "/api/films/3"
     },
     {
-      "$href": "/api/films/1"
+      "$href": "/api/films/4"
+    },
+    {
+      "$href": "/api/films/5"
+    },
+    {
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-10T15:16:16.259000Z",
-  "edited": "2015-04-17T06:59:43.869528Z"
+  "edited": "2014-12-20T21:36:42.139000Z"
 }

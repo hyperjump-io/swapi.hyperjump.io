@@ -15,15 +15,15 @@
   "pilots": [],
   "films": [
     {
-      "$href": "/api/films/5"
+      "$href": "/api/films/4"
     },
     {
-      "$href": "/api/films/4"
+      "$href": "/api/films/5"
     },
     {
       "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-19T17:04:06.323000Z",
-  "edited": "2014-12-22T17:35:45.042900Z"
+  "edited": "2014-12-20T21:23:49.915000Z"
 }

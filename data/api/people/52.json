@@ -12,10 +12,10 @@
   },
   "films": [
     {
-      "$href": "/api/films/5"
+      "$href": "/api/films/4"
     },
     {
-      "$href": "/api/films/4"
+      "$href": "/api/films/5"
     },
     {
       "$href": "/api/films/6"

@@ -21,16 +21,16 @@
       "$href": "/api/films/2"
     },
     {
-      "$href": "/api/films/5"
+      "$href": "/api/films/3"
     },
     {
       "$href": "/api/films/4"
     },
     {
-      "$href": "/api/films/6"
+      "$href": "/api/films/5"
     },
     {
-      "$href": "/api/films/3"
+      "$href": "/api/films/6"
     }
   ],
   "created": "2014-12-15T12:27:22.877000Z",

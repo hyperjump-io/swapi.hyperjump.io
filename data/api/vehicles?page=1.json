@@ -1,0 +1,38 @@
+{
+  "count": 39,
+  "next": {
+    "$href": "/api/vehicles?page=2"
+  },
+  "results": [
+    {
+      "$href": "/api/vehicles/4"
+    },
+    {
+      "$href": "/api/vehicles/6"
+    },
+    {
+      "$href": "/api/vehicles/7"
+    },
+    {
+      "$href": "/api/vehicles/8"
+    },
+    {
+      "$href": "/api/vehicles/14"
+    },
+    {
+      "$href": "/api/vehicles/16"
+    },
+    {
+      "$href": "/api/vehicles/18"
+    },
+    {
+      "$href": "/api/vehicles/19"
+    },
+    {
+      "$href": "/api/vehicles/20"
+    },
+    {
+      "$href": "/api/vehicles/24"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
   "cost_in_credits": "1143350000",
   "length": "19000",
   "max_atmosphering_speed": "n/a",
-  "crew": "279144",
+  "crew": "279,144",
   "passengers": "38000",
   "cargo_capacity": "250000000",
   "consumables": "6 years",
@@ -22,5 +22,5 @@
     }
   ],
   "created": "2014-12-15T12:31:42.547000Z",
-  "edited": "2017-04-19T10:56:06.685592Z"
+  "edited": "2014-12-20T21:23:49.893000Z"
 }
