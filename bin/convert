@@ -5,75 +5,23 @@ const url = require("url");
 const axios = require("axios");
 
 
-const lists = [
-  ["people/", (person) => ({
-    ...person,
-    homeworld: toHref(person.homeworld),
-    films: person.films.map(toHref),
-    species: person.species.map(toHref),
-    vehicles: person.vehicles.map(toHref),
-    starships: person.starships.map(toHref)
-  })],
-  ["planets/", (planet) => ({
-    ...planet,
-    residents: planet.residents.map(toHref),
-    films: planet.films.map(toHref)
-  })],
-  ["films/", (film) => ({
-    ...film,
-    characters: film.characters.map(toHref),
-    planets: film.planets.map(toHref),
-    starships: film.starships.map(toHref),
-    vehicles: film.vehicles.map(toHref),
-    species: film.species.map(toHref)
-  })],
-  ["species/", (species) => ({
-    ...species,
-    homeworld: toHref(species.homeworld),
-    people: species.people.map(toHref),
-    films: species.films.map(toHref)
-  })],
-  ["vehicles/", (vehicle) => ({
-    ...vehicle,
-    pilots: vehicle.pilots.map(toHref),
-    films: vehicle.films.map(toHref)
-  })],
-  ["starships/", (starship) => ({
-    ...starship,
-    pilots: starship.pilots.map(toHref),
-    films: starship.films.map(toHref)
-  })]
-];
-
 const swapi = axios.create({
-  baseURL: "https://swapi.co/api/",
+  baseURL: "https://swapi.dev",
   headers: { "Accept": "application/json" }
 });
 
-const processList = async (path, build) => {
-  const promises = [];
-  let list = { next: path };
-  while (list.next) {
-    console.log(list.next);
-    const response = await swapi(list.next);
-    list = await response.data;
-    promises.concat(list.results
-      .map(build)
-      .map(clean)
-      .map((item) => {
-        const filename = `${__dirname}/../data${toHref(item.url).$href}.json`;
-        delete item.url;
-
-        return fs.writeFile(filename, JSON.stringify(item, null, 2));
-      }));
+const toHref = (uri) => {
+  if (uri === null) {
+    return null;
   }
 
-  return Promise.all(promises);
-};
-
-const toHref = (uri) => uri && { "$href": url.parse(uri).path.replace(/\/$/, "") };
+  uri = new URL(uri);
+  return { "$href": uri.pathname.replace(/\/$/, "") + uri.search };
+}
 
 const clean = (obj) => {
+  delete obj.url;
+
   const cleanObj = {};
   Object.entries(obj).forEach(([key, value]) => {
     if (value !== null) {
@@ -84,9 +32,95 @@ const clean = (obj) => {
   return cleanObj;
 };
 
+const transform = async (uri, type, subType) => {
+  console.log(uri);
+  const response = await swapi(uri);
+  const data = await response.data;
+  const jref = clean(await transformer[type](data, subType));
+  await fs.writeFile(`${__dirname}/../data${uri}.json`, JSON.stringify(jref, null, 2));
+};
+
+const transformer = {
+  api: async (api) => {
+    const jref = {
+      people: toHref(api.people),
+      planets: toHref(api.planets),
+      films: toHref(api.films),
+      species: toHref(api.species),
+      vehicles: toHref(api.vehicles),
+      starships: toHref(api.starships)
+    };
+
+    for (let type in jref) {
+      const firstPage = toHref(api[type] + "?page=1");
+      await fs.writeFile(`${__dirname}/../data${jref[type].$href}.json`, JSON.stringify(firstPage, null, 2));
+
+      await transform(firstPage.$href, "list", type);
+    }
+
+    return jref;
+  },
+  list: async (list, type) => {
+    const jref = {
+      ...list,
+      next: toHref(list.next),
+      previous: toHref(list.previous),
+      results: list.results.map((item) => toHref(item.url))
+    };
+
+    for (let item of jref.results) {
+      await transform(item.$href, type);
+    }
+
+    if (jref.next) {
+      await transform(jref.next.$href, "list", type);
+    }
+
+    return jref;
+  },
+  people: (person) => ({
+    ...person,
+    homeworld: toHref(person.homeworld),
+    films: person.films.map(toHref),
+    species: person.species.map(toHref),
+    vehicles: person.vehicles.map(toHref),
+    starships: person.starships.map(toHref)
+  }),
+  planets: (planet) => ({
+    ...planet,
+    residents: planet.residents.map(toHref),
+    films: planet.films.map(toHref)
+  }),
+  films: (film) => ({
+    ...film,
+    characters: film.characters.map(toHref),
+    planets: film.planets.map(toHref),
+    starships: film.starships.map(toHref),
+    vehicles: film.vehicles.map(toHref),
+    species: film.species.map(toHref)
+  }),
+  species: (species) => ({
+    ...species,
+    homeworld: toHref(species.homeworld),
+    people: species.people.map(toHref),
+    films: species.films.map(toHref)
+  }),
+  vehicles: (vehicle) => ({
+    ...vehicle,
+    pilots: vehicle.pilots.map(toHref),
+    films: vehicle.films.map(toHref)
+  }),
+  starships: (starship) => ({
+    ...starship,
+    pilots: starship.pilots.map(toHref),
+    films: starship.films.map(toHref)
+  })
+};
+
 (async function () {
   try {
-    await Promise.all(lists.map(([path, build]) => processList(path, build)));
+    await transform("/api", "api");
+
     console.log("done");
   } catch (error) {
     console.log(error);
