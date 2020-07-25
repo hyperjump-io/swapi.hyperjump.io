@@ -1,10 +1,10 @@
 # Hyperjump Star Wars API
 
-The Hyperjump Star Wars API is a demo API for the [JSON Reference](jref) (JRef)
-media type and the [Hyperjump browser](hyperjump). The API is based on the [Star
-Wars API](swapi) (SWAPI) with JSON converted to JRef.
+The Hyperjump Star Wars API is a demo API for the [JSON Reference][jref] (JRef)
+media type and the [Hyperjump browser][hyperjump]. The API is based on the [Star
+Wars API][swapi] (SWAPI) with JSON converted to JRef.
 
-You can explore the with the Hyperjump Explorer (https://explore.hyperjump.io/#https://swapi.hyperjump.io/api/films/1).
+You can explore the API with the [Hyperjump Explorer](https://explore.hyperjump.io/#https://swapi.hyperjump.io/api/films/1).
 
 ## Generation
 
@@ -19,4 +19,4 @@ TODO: Automate deployment
 
 [jref]: https://github.com/hyperjump-io/browser/blob/master/lib/json-reference/README.md
 [hyperjump]: https://github.com/hyperjump-io/browser
-[swapi]: https://www.swapi.co
+[swapi]: https://swapi.dev
