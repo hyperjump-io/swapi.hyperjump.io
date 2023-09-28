@@ -2,10 +2,12 @@
   "name": "@hyperjump/starwars",
   "version": "0.1.0",
   "description": "An demo API for the JRef media type and the Hyperjump browser",
+  "type": "module",
   "scripts": {
     "clean": "cat .gitignore | xargs rm -rf",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "lint": "eslint src",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "repository": "github:hyperjump-io/swapi.hyperjump.io",
   "keywords": [
@@ -25,7 +27,9 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "axios": "*",
-    "nodemon": "*"
+    "nodemon": "*",
+    "eslint": "*",
+    "eslint-import-resolver-node": "*",
+    "eslint-plugin-import": "*"
   }
 }
