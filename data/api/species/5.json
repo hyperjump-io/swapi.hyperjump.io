@@ -8,20 +8,20 @@
   "eye_colors": "yellow, red",
   "average_lifespan": "1000",
   "homeworld": {
-    "$href": "/api/planets/24"
+    "$ref": "/api/planets/24"
   },
   "language": "Huttese",
   "people": [
     {
-      "$href": "/api/people/16"
+      "$ref": "/api/people/16"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/1"
+      "$ref": "/api/films/1"
     },
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     }
   ],
   "created": "2014-12-10T17:12:50.410000Z",

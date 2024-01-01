@@ -8,20 +8,20 @@
   "eye_colors": "yellow",
   "average_lifespan": "91",
   "homeworld": {
-    "$href": "/api/planets/34"
+    "$ref": "/api/planets/34"
   },
   "language": "Toydarian",
   "people": [
     {
-      "$href": "/api/people/40"
+      "$ref": "/api/people/40"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     }
   ],
   "created": "2014-12-19T17:48:56.893000Z",

@@ -1,29 +1,29 @@
 {
   "count": 37,
   "previous": {
-    "$href": "/api/species?page=3"
+    "$ref": "/api/species?page=3"
   },
   "results": [
     {
-      "$href": "/api/species/31"
+      "$ref": "/api/species/31"
     },
     {
-      "$href": "/api/species/32"
+      "$ref": "/api/species/32"
     },
     {
-      "$href": "/api/species/33"
+      "$ref": "/api/species/33"
     },
     {
-      "$href": "/api/species/34"
+      "$ref": "/api/species/34"
     },
     {
-      "$href": "/api/species/35"
+      "$ref": "/api/species/35"
     },
     {
-      "$href": "/api/species/36"
+      "$ref": "/api/species/36"
     },
     {
-      "$href": "/api/species/37"
+      "$ref": "/api/species/37"
     }
   ]
 }

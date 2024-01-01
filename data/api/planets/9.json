@@ -10,27 +10,27 @@
   "population": "1000000000000",
   "residents": [
     {
-      "$href": "/api/people/34"
+      "$ref": "/api/people/34"
     },
     {
-      "$href": "/api/people/55"
+      "$ref": "/api/people/55"
     },
     {
-      "$href": "/api/people/74"
+      "$ref": "/api/people/74"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-10T11:54:13.921000Z",

@@ -8,16 +8,16 @@
   "birth_year": "unknown",
   "gender": "male",
   "homeworld": {
-    "$href": "/api/planets/55"
+    "$ref": "/api/planets/55"
   },
   "films": [
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     }
   ],
   "species": [
     {
-      "$href": "/api/species/31"
+      "$ref": "/api/species/31"
     }
   ],
   "vehicles": [],

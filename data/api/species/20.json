@@ -8,20 +8,20 @@
   "eye_colors": "hazel",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/43"
+    "$ref": "/api/planets/43"
   },
   "language": "Cerean",
   "people": [
     {
-      "$href": "/api/people/52"
+      "$ref": "/api/people/52"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T10:15:33.765000Z",

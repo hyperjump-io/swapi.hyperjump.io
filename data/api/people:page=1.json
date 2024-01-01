@@ -1,38 +1,38 @@
 {
   "count": 82,
   "next": {
-    "$href": "/api/people?page=2"
+    "$ref": "/api/people?page=2"
   },
   "results": [
     {
-      "$href": "/api/people/1"
+      "$ref": "/api/people/1"
     },
     {
-      "$href": "/api/people/2"
+      "$ref": "/api/people/2"
     },
     {
-      "$href": "/api/people/3"
+      "$ref": "/api/people/3"
     },
     {
-      "$href": "/api/people/4"
+      "$ref": "/api/people/4"
     },
     {
-      "$href": "/api/people/5"
+      "$ref": "/api/people/5"
     },
     {
-      "$href": "/api/people/6"
+      "$ref": "/api/people/6"
     },
     {
-      "$href": "/api/people/7"
+      "$ref": "/api/people/7"
     },
     {
-      "$href": "/api/people/8"
+      "$ref": "/api/people/8"
     },
     {
-      "$href": "/api/people/9"
+      "$ref": "/api/people/9"
     },
     {
-      "$href": "/api/people/10"
+      "$ref": "/api/people/10"
     }
   ]
 }

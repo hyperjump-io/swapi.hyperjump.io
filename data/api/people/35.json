@@ -8,30 +8,30 @@
   "birth_year": "46BBY",
   "gender": "female",
   "homeworld": {
-    "$href": "/api/planets/8"
+    "$ref": "/api/planets/8"
   },
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "species": [],
   "vehicles": [],
   "starships": [
     {
-      "$href": "/api/starships/39"
+      "$ref": "/api/starships/39"
     },
     {
-      "$href": "/api/starships/49"
+      "$ref": "/api/starships/49"
     },
     {
-      "$href": "/api/starships/64"
+      "$ref": "/api/starships/64"
     }
   ],
   "created": "2014-12-19T17:28:26.926000Z",

@@ -9,7 +9,7 @@ const toHref = (uri) => {
   }
 
   uri = new URL(uri);
-  return { "$href": uri.pathname.replace(/\/$/, "") + uri.search };
+  return { "$ref": uri.pathname.replace(/\/$/, "") + uri.search };
 };
 
 const clean = (value) => {
@@ -53,7 +53,7 @@ const transformer = {
       const firstPage = toHref(api[type] + "?page=1");
       await writeFile(`./data/api/${type}/index.json`, JSON.stringify(firstPage, null, 2));
 
-      await transform(firstPage.$href, "list", type);
+      await transform(firstPage.$ref, "list", type);
     }
 
     return jref;
@@ -67,11 +67,11 @@ const transformer = {
     };
 
     for (const item of jref.results) {
-      await transform(item.$href, type);
+      await transform(item.$ref, type);
     }
 
     if (jref.next) {
-      await transform(jref.next.$href, "list", type);
+      await transform(jref.next.$ref, "list", type);
     }
 
     return jref;

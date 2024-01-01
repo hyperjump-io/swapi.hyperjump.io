@@ -8,28 +8,28 @@
   "birth_year": "896BBY",
   "gender": "male",
   "homeworld": {
-    "$href": "/api/planets/28"
+    "$ref": "/api/planets/28"
   },
   "films": [
     {
-      "$href": "/api/films/2"
+      "$ref": "/api/films/2"
     },
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "species": [
     {
-      "$href": "/api/species/6"
+      "$ref": "/api/species/6"
     }
   ],
   "vehicles": [],

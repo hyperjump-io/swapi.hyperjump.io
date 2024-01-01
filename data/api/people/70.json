@@ -8,21 +8,21 @@
   "birth_year": "unknown",
   "gender": "female",
   "homeworld": {
-    "$href": "/api/planets/54"
+    "$ref": "/api/planets/54"
   },
   "films": [
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     }
   ],
   "species": [
     {
-      "$href": "/api/species/30"
+      "$ref": "/api/species/30"
     }
   ],
   "vehicles": [
     {
-      "$href": "/api/vehicles/45"
+      "$ref": "/api/vehicles/45"
     }
   ],
   "starships": [],

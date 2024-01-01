@@ -8,17 +8,17 @@
   "eye_colors": "yellow",
   "average_lifespan": "80",
   "homeworld": {
-    "$href": "/api/planets/59"
+    "$ref": "/api/planets/59"
   },
   "language": "Kaleesh",
   "people": [
     {
-      "$href": "/api/people/79"
+      "$ref": "/api/people/79"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T19:45:42.537000Z",

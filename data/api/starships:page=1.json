@@ -1,38 +1,38 @@
 {
   "count": 36,
   "next": {
-    "$href": "/api/starships?page=2"
+    "$ref": "/api/starships?page=2"
   },
   "results": [
     {
-      "$href": "/api/starships/2"
+      "$ref": "/api/starships/2"
     },
     {
-      "$href": "/api/starships/3"
+      "$ref": "/api/starships/3"
     },
     {
-      "$href": "/api/starships/5"
+      "$ref": "/api/starships/5"
     },
     {
-      "$href": "/api/starships/9"
+      "$ref": "/api/starships/9"
     },
     {
-      "$href": "/api/starships/10"
+      "$ref": "/api/starships/10"
     },
     {
-      "$href": "/api/starships/11"
+      "$ref": "/api/starships/11"
     },
     {
-      "$href": "/api/starships/12"
+      "$ref": "/api/starships/12"
     },
     {
-      "$href": "/api/starships/13"
+      "$ref": "/api/starships/13"
     },
     {
-      "$href": "/api/starships/15"
+      "$ref": "/api/starships/15"
     },
     {
-      "$href": "/api/starships/17"
+      "$ref": "/api/starships/17"
     }
   ]
 }

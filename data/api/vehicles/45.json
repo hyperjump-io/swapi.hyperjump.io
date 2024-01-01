@@ -12,12 +12,12 @@
   "vehicle_class": "airspeeder",
   "pilots": [
     {
-      "$href": "/api/people/70"
+      "$ref": "/api/people/70"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     }
   ],
   "created": "2014-12-20T17:17:33.526000Z",

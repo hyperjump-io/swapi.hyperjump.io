@@ -1,41 +1,41 @@
 {
   "count": 39,
   "next": {
-    "$href": "/api/vehicles?page=4"
+    "$ref": "/api/vehicles?page=4"
   },
   "previous": {
-    "$href": "/api/vehicles?page=2"
+    "$ref": "/api/vehicles?page=2"
   },
   "results": [
     {
-      "$href": "/api/vehicles/44"
+      "$ref": "/api/vehicles/44"
     },
     {
-      "$href": "/api/vehicles/45"
+      "$ref": "/api/vehicles/45"
     },
     {
-      "$href": "/api/vehicles/46"
+      "$ref": "/api/vehicles/46"
     },
     {
-      "$href": "/api/vehicles/50"
+      "$ref": "/api/vehicles/50"
     },
     {
-      "$href": "/api/vehicles/51"
+      "$ref": "/api/vehicles/51"
     },
     {
-      "$href": "/api/vehicles/53"
+      "$ref": "/api/vehicles/53"
     },
     {
-      "$href": "/api/vehicles/54"
+      "$ref": "/api/vehicles/54"
     },
     {
-      "$href": "/api/vehicles/55"
+      "$ref": "/api/vehicles/55"
     },
     {
-      "$href": "/api/vehicles/56"
+      "$ref": "/api/vehicles/56"
     },
     {
-      "$href": "/api/vehicles/57"
+      "$ref": "/api/vehicles/57"
     }
   ]
 }

@@ -8,23 +8,23 @@
   "eye_colors": "blue, green, red, yellow, brown, orange",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/51"
+    "$ref": "/api/planets/51"
   },
   "language": "Mirialan",
   "people": [
     {
-      "$href": "/api/people/64"
+      "$ref": "/api/people/64"
     },
     {
-      "$href": "/api/people/65"
+      "$ref": "/api/people/65"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T16:46:48.290000Z",

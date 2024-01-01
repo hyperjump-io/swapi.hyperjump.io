@@ -8,20 +8,20 @@
   "eye_colors": "yellow",
   "average_lifespan": "86",
   "homeworld": {
-    "$href": "/api/planets/48"
+    "$ref": "/api/planets/48"
   },
   "language": "Quermian",
   "people": [
     {
-      "$href": "/api/people/57"
+      "$ref": "/api/people/57"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T10:34:50.827000Z",

@@ -10,51 +10,51 @@
   "population": "4500000000",
   "residents": [
     {
-      "$href": "/api/people/3"
+      "$ref": "/api/people/3"
     },
     {
-      "$href": "/api/people/21"
+      "$ref": "/api/people/21"
     },
     {
-      "$href": "/api/people/35"
+      "$ref": "/api/people/35"
     },
     {
-      "$href": "/api/people/36"
+      "$ref": "/api/people/36"
     },
     {
-      "$href": "/api/people/37"
+      "$ref": "/api/people/37"
     },
     {
-      "$href": "/api/people/38"
+      "$ref": "/api/people/38"
     },
     {
-      "$href": "/api/people/39"
+      "$ref": "/api/people/39"
     },
     {
-      "$href": "/api/people/42"
+      "$ref": "/api/people/42"
     },
     {
-      "$href": "/api/people/60"
+      "$ref": "/api/people/60"
     },
     {
-      "$href": "/api/people/61"
+      "$ref": "/api/people/61"
     },
     {
-      "$href": "/api/people/66"
+      "$ref": "/api/people/66"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-10T11:52:31.066000Z",

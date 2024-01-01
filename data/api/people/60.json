@@ -8,18 +8,18 @@
   "birth_year": "unknown",
   "gender": "male",
   "homeworld": {
-    "$href": "/api/planets/8"
+    "$ref": "/api/planets/8"
   },
   "films": [
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     }
   ],
   "species": [],
   "vehicles": [],
   "starships": [
     {
-      "$href": "/api/starships/39"
+      "$ref": "/api/starships/39"
     }
   ],
   "created": "2014-12-20T11:10:10.381000Z",

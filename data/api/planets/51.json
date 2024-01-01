@@ -10,10 +10,10 @@
   "population": "unknown",
   "residents": [
     {
-      "$href": "/api/people/64"
+      "$ref": "/api/people/64"
     },
     {
-      "$href": "/api/people/65"
+      "$ref": "/api/people/65"
     }
   ],
   "films": [],

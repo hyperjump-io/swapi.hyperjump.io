@@ -10,7 +10,7 @@
   "population": "0",
   "residents": [
     {
-      "$href": "/api/people/50"
+      "$ref": "/api/people/50"
     }
   ],
   "films": [],

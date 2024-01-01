@@ -10,36 +10,36 @@
   "language": "n/a",
   "people": [
     {
-      "$href": "/api/people/2"
+      "$ref": "/api/people/2"
     },
     {
-      "$href": "/api/people/3"
+      "$ref": "/api/people/3"
     },
     {
-      "$href": "/api/people/8"
+      "$ref": "/api/people/8"
     },
     {
-      "$href": "/api/people/23"
+      "$ref": "/api/people/23"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/1"
+      "$ref": "/api/films/1"
     },
     {
-      "$href": "/api/films/2"
+      "$ref": "/api/films/2"
     },
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-10T15:16:16.259000Z",

@@ -8,17 +8,17 @@
   "eye_colors": "black",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/33"
+    "$ref": "/api/planets/33"
   },
   "language": "Sullutese",
   "people": [
     {
-      "$href": "/api/people/31"
+      "$ref": "/api/people/31"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     }
   ],
   "created": "2014-12-18T11:26:20.103000Z",

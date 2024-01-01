@@ -8,20 +8,20 @@
   "eye_colors": "blue, indigo",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/46"
+    "$ref": "/api/planets/46"
   },
   "language": "unknown",
   "people": [
     {
-      "$href": "/api/people/55"
+      "$ref": "/api/people/55"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T10:29:13.798000Z",

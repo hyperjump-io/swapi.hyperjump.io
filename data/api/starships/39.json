@@ -14,21 +14,21 @@
   "starship_class": "Starfighter",
   "pilots": [
     {
-      "$href": "/api/people/11"
+      "$ref": "/api/people/11"
     },
     {
-      "$href": "/api/people/35"
+      "$ref": "/api/people/35"
     },
     {
-      "$href": "/api/people/60"
+      "$ref": "/api/people/60"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     }
   ],
   "created": "2014-12-19T17:39:17.582000Z",

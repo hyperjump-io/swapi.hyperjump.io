@@ -8,22 +8,22 @@
   "birth_year": "92BBY",
   "gender": "male",
   "homeworld": {
-    "$href": "/api/planets/43"
+    "$ref": "/api/planets/43"
   },
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "species": [
     {
-      "$href": "/api/species/20"
+      "$ref": "/api/species/20"
     }
   ],
   "vehicles": [],

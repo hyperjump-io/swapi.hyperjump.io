@@ -8,20 +8,20 @@
   "eye_colors": "blue",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/50"
+    "$ref": "/api/planets/50"
   },
   "language": "Chagria",
   "people": [
     {
-      "$href": "/api/people/59"
+      "$ref": "/api/people/59"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T10:53:28.795000Z",

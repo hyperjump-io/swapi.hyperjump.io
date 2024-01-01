@@ -8,41 +8,41 @@
   "eye_colors": "brown, blue, green, hazel, grey, amber",
   "average_lifespan": "120",
   "homeworld": {
-    "$href": "/api/planets/9"
+    "$ref": "/api/planets/9"
   },
   "language": "Galactic Basic",
   "people": [
     {
-      "$href": "/api/people/66"
+      "$ref": "/api/people/66"
     },
     {
-      "$href": "/api/people/67"
+      "$ref": "/api/people/67"
     },
     {
-      "$href": "/api/people/68"
+      "$ref": "/api/people/68"
     },
     {
-      "$href": "/api/people/74"
+      "$ref": "/api/people/74"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/1"
+      "$ref": "/api/films/1"
     },
     {
-      "$href": "/api/films/2"
+      "$ref": "/api/films/2"
     },
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-10T13:52:11.567000Z",

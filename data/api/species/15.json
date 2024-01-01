@@ -8,29 +8,29 @@
   "eye_colors": "blue, brown, orange, pink",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/37"
+    "$ref": "/api/planets/37"
   },
   "language": "Twi'leki",
   "people": [
     {
-      "$href": "/api/people/45"
+      "$ref": "/api/people/45"
     },
     {
-      "$href": "/api/people/46"
+      "$ref": "/api/people/46"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T09:48:02.406000Z",

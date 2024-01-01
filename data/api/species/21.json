@@ -8,17 +8,17 @@
   "eye_colors": "black",
   "average_lifespan": "70",
   "homeworld": {
-    "$href": "/api/planets/44"
+    "$ref": "/api/planets/44"
   },
   "language": "Nautila",
   "people": [
     {
-      "$href": "/api/people/53"
+      "$ref": "/api/people/53"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     }
   ],
   "created": "2014-12-20T10:18:58.610000Z",

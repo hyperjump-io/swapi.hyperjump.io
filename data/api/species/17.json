@@ -8,17 +8,17 @@
   "eye_colors": "yellow",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/39"
+    "$ref": "/api/planets/39"
   },
   "language": "vulpterish",
   "people": [
     {
-      "$href": "/api/people/48"
+      "$ref": "/api/people/48"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     }
   ],
   "created": "2014-12-20T09:57:33.128000Z",

@@ -8,24 +8,24 @@
   "birth_year": "31.5BBY",
   "gender": "male",
   "homeworld": {
-    "$href": "/api/planets/10"
+    "$ref": "/api/planets/10"
   },
   "films": [
     {
-      "$href": "/api/films/2"
+      "$ref": "/api/films/2"
     },
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     }
   ],
   "species": [],
   "vehicles": [],
   "starships": [
     {
-      "$href": "/api/starships/21"
+      "$ref": "/api/starships/21"
     }
   ],
   "created": "2014-12-15T12:49:32.457000Z",

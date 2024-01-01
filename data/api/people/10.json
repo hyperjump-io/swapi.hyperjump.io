@@ -8,49 +8,49 @@
   "birth_year": "57BBY",
   "gender": "male",
   "homeworld": {
-    "$href": "/api/planets/20"
+    "$ref": "/api/planets/20"
   },
   "films": [
     {
-      "$href": "/api/films/1"
+      "$ref": "/api/films/1"
     },
     {
-      "$href": "/api/films/2"
+      "$ref": "/api/films/2"
     },
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/5"
+      "$ref": "/api/films/5"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "species": [],
   "vehicles": [
     {
-      "$href": "/api/vehicles/38"
+      "$ref": "/api/vehicles/38"
     }
   ],
   "starships": [
     {
-      "$href": "/api/starships/48"
+      "$ref": "/api/starships/48"
     },
     {
-      "$href": "/api/starships/59"
+      "$ref": "/api/starships/59"
     },
     {
-      "$href": "/api/starships/64"
+      "$ref": "/api/starships/64"
     },
     {
-      "$href": "/api/starships/65"
+      "$ref": "/api/starships/65"
     },
     {
-      "$href": "/api/starships/74"
+      "$ref": "/api/starships/74"
     }
   ],
   "created": "2014-12-10T16:16:29.192000Z",

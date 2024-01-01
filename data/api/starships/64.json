@@ -14,15 +14,15 @@
   "starship_class": "yacht",
   "pilots": [
     {
-      "$href": "/api/people/10"
+      "$ref": "/api/people/10"
     },
     {
-      "$href": "/api/people/35"
+      "$ref": "/api/people/35"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T19:55:15.396000Z",

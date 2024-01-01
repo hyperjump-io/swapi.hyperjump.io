@@ -8,17 +8,17 @@
   "eye_colors": "yellow, blue",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/35"
+    "$ref": "/api/planets/35"
   },
   "language": "Dugese",
   "people": [
     {
-      "$href": "/api/people/41"
+      "$ref": "/api/people/41"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     }
   ],
   "created": "2014-12-19T17:53:11.214000Z",

@@ -10,12 +10,12 @@
   "population": "30000000",
   "residents": [
     {
-      "$href": "/api/people/30"
+      "$ref": "/api/people/30"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     }
   ],
   "created": "2014-12-10T11:50:29.349000Z",

@@ -11,7 +11,7 @@
   "residents": [],
   "films": [
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-10T13:44:50.397000Z",

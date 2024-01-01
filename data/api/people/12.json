@@ -8,14 +8,14 @@
   "birth_year": "64BBY",
   "gender": "male",
   "homeworld": {
-    "$href": "/api/planets/21"
+    "$ref": "/api/planets/21"
   },
   "films": [
     {
-      "$href": "/api/films/1"
+      "$ref": "/api/films/1"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "species": [],

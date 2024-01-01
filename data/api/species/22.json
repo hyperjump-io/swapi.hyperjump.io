@@ -8,20 +8,20 @@
   "eye_colors": "brown, orange",
   "average_lifespan": "unknown",
   "homeworld": {
-    "$href": "/api/planets/45"
+    "$ref": "/api/planets/45"
   },
   "language": "Zabraki",
   "people": [
     {
-      "$href": "/api/people/44"
+      "$ref": "/api/people/44"
     },
     {
-      "$href": "/api/people/54"
+      "$ref": "/api/people/54"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     }
   ],
   "created": "2014-12-20T10:26:59.894000Z",

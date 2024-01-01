@@ -13,7 +13,7 @@
   "pilots": [],
   "films": [
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     }
   ],
   "created": "2014-12-18T10:50:28.225000Z",

@@ -14,21 +14,21 @@
   "starship_class": "Armed government transport",
   "pilots": [
     {
-      "$href": "/api/people/1"
+      "$ref": "/api/people/1"
     },
     {
-      "$href": "/api/people/13"
+      "$ref": "/api/people/13"
     },
     {
-      "$href": "/api/people/14"
+      "$ref": "/api/people/14"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/2"
+      "$ref": "/api/films/2"
     },
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     }
   ],
   "created": "2014-12-15T13:04:47.235000Z",

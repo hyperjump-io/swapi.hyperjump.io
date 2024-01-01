@@ -8,20 +8,20 @@
   "eye_colors": "black, silver",
   "average_lifespan": "70",
   "homeworld": {
-    "$href": "/api/planets/49"
+    "$ref": "/api/planets/49"
   },
   "language": "Kel Dor",
   "people": [
     {
-      "$href": "/api/people/58"
+      "$ref": "/api/people/58"
     }
   ],
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     },
     {
-      "$href": "/api/films/6"
+      "$ref": "/api/films/6"
     }
   ],
   "created": "2014-12-20T10:49:21.692000Z",

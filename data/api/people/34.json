@@ -8,11 +8,11 @@
   "birth_year": "91BBY",
   "gender": "male",
   "homeworld": {
-    "$href": "/api/planets/9"
+    "$ref": "/api/planets/9"
   },
   "films": [
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     }
   ],
   "species": [],

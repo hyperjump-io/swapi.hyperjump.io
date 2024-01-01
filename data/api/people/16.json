@@ -8,22 +8,22 @@
   "birth_year": "600BBY",
   "gender": "hermaphrodite",
   "homeworld": {
-    "$href": "/api/planets/24"
+    "$ref": "/api/planets/24"
   },
   "films": [
     {
-      "$href": "/api/films/1"
+      "$ref": "/api/films/1"
     },
     {
-      "$href": "/api/films/3"
+      "$ref": "/api/films/3"
     },
     {
-      "$href": "/api/films/4"
+      "$ref": "/api/films/4"
     }
   ],
   "species": [
     {
-      "$href": "/api/species/5"
+      "$ref": "/api/species/5"
     }
   ],
   "vehicles": [],

@@ -10,19 +10,19 @@
   "population": "unknown",
   "residents": [
     {
-      "$href": "/api/people/20"
+      "$ref": "/api/people/20"
     },
     {
-      "$href": "/api/people/23"
+      "$ref": "/api/people/23"
     },
     {
-      "$href": "/api/people/29"
+      "$ref": "/api/people/29"
     },
     {
-      "$href": "/api/people/32"
+      "$ref": "/api/people/32"
     },
     {
-      "$href": "/api/people/75"
+      "$ref": "/api/people/75"
     }
   ],
   "films": [],
